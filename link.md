@@ -5,6 +5,11 @@ permalink: /link/
 ---
 # Link
 
+## awesome
+
+* [A curated collection of diagramming tools used by leading software engineering teams](https://github.com/shubhamgrg04/awesome-diagramming)
+
+
 ## mind
 
 * [Understanding the Monkey Mind & How to Live in Harmony with Your Mental Companion](https://www.pocketmindfulness.com/understanding-monkey-mind-live-harmony-mental-companion/)
@@ -23,6 +28,17 @@ permalink: /link/
 ### javascript
 
 * [A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS)
+
+### golang
+
+* [Golang conference PPT](https://github.com/gopherchina/conference)
+
+
+### ops
+
+* [DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP](https://github.com/bregman-arie/devops-resources)
+
+* [10x easier, rocket 140x lower storage cost, rocket high performance, rocket petabyte scale - Elasticsearch/Splunk/Datadog alternative for rocket (logs, metrics, traces).](https://github.com/openobserve/openobserve)
 
 ### ubuntu
 
@@ -45,7 +61,28 @@ permalink: /link/
 
 ### tool
 
+### svc
+
 * [SoftVC VITS Singing Voice Conversion](https://github.com/svc-develop-team/so-vits-svc)
+
+#### uml
+
+* [Gaphor is a UML and SysML modeling application written in Python](https://github.com/gaphor/gaphor)
+
+* [Reverse engineer Python source code into UML](https://github.com/abulka/pynsource)
+
+* [pyreverse](https://github.com/pylint-dev/pylint/tree/main/pylint/pyreverse)
+
+* [plantuml - Generate diagrams from textual description](https://github.com/plantuml/plantuml)
+
+* [Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown](https://github.com/mermaid-js/mermaid)
+
+* [nomnoml - The sassy UML diagram renderer](https://github.com/skanaar/nomnoml)
+
+
+#### database
+
+* [Next-Gen ERD: Design, Explore, Document and Analyze your database](https://github.com/azimuttapp/azimutt)
 
 ### library
 
