@@ -4,6 +4,10 @@ title: "Use UML in Jekyll"
 categories: tech
 ---
 
+It doesn't work on github page described as below. I continue to find the method to code to uml on github page.
+
+****************************************
+
 I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - [A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.](https://github.com/jeffreytse/jekyll-spaceship)
 
 I installed the plugin by following the steps in the link. Then I used some demos and found it very simple.

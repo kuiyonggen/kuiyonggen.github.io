@@ -25,6 +25,16 @@ permalink: /link/
 
 * [Some useful websites for programmers](https://github.com/sdmg15/Best-websites-a-programmer-should-visit){:target="_blank"}
 
+* [Lessons From A Lifetime Of Being A Programmer](https://thecodist.com/lessons_from_a_lifetime_of_being_a_programmer/){:target="_blank"}
+
+* [What every computer science major should know](https://matt.might.net/articles/what-cs-majors-should-know/){:target="_blank"}
+
+* [Henrik Warne's blog](https://henrikwarne.com/2012/12/12/working-as-a-software-developer/){:target="_blank"}
+
+* [How I got to 200 productive hours a month](https://qotoqot.com/blog/improving-focus/){:target="_blank"}
+
+* [Learning Vim: What I Wish I Knew](https://hackernoon.com/learning-vim-what-i-wish-i-knew-b5dca186bef7){:target="_blank"}
+
 ### javascript
 
 * [A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS){:target="_blank"}
@@ -49,6 +59,8 @@ permalink: /link/
 
 ### jekyll
 
+* [ A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.](https://github.com/jeffreytse/jekyll-spaceship){:target="_blank"}
+
 * [Add comments to your Jekyll powered blog](https://github.com/damieng/jekyll-blog-comments){:target="_blank"}
 
 * [How to Add Comments to a Jekyll Blog](https://www.aleksandrhovhannisyan.com/blog/jekyll-comment-system-github-issues/){:target="_blank"}
@@ -59,6 +71,18 @@ permalink: /link/
 
 * [High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app](https://github.com/knadh/listmonk){:target="_blank"}
 
+
+### chrome
+
+* [How to Create Your Own Google Chrome Extension](https://www.freecodecamp.org/news/building-chrome-extension/){:target="_blank"}
+
+* [Chrome-Extension: iterate through all tabs?](https://javascript.tutorialink.com/chrome-extension-iterate-through-all-tabs/){:target="_blank"}
+
+### work flow
+
+* [A distributed hydrological modeling platform](https://github.com/openstreams/wflow){:target="_blank"}
+
+* [wflow](https://github.com/willianfu/wflow){:target="_blank"}
 
 ### tool
 
@@ -126,4 +150,20 @@ permalink: /link/
 
 ## style
 
+* [Python Library and CLI for the LanguageTool JSON API](https://github.com/Findus23/pylanguagetool){:target="_blank"}
+
+* [A powerful grammar checker for Vim using LanguageTool.](https://github.com/rhysd/vim-grammarous){:target="_blank"}
+
+* [Style and Grammar Checker for 25+ Languages](https://github.com/languagetool-org/languagetool){:target="_blank"}
+
+* [Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.](https://github.com/checkstyle/checkstyle){:target="_blank"}
+
+* [Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support](https://github.com/dense-analysis/ale){:target="_blank"}
+
+* [The Elements of Style](https://www.bartleby.com/lit-hub/the-elements-of-style/){:target="_blank"}
+
+* [write good](https://github.com/btford/write-good){:target="_blank"}
+
 * [Style guide for writing in English for tutorials and articles at Kodeco.](https://github.com/kodecocodes/english-style-guide){:target="_blank"}
+
+* [Chinese Style Guide, a set of standards for writing and formatting articles in Chinese language and Chinese-English mixed content](https://github.com/RightCapitalHQ/chinese-style-guide){:target="_blank"}
