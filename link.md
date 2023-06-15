@@ -7,114 +7,123 @@ permalink: /link/
 
 ## awesome
 
-* [A curated collection of diagramming tools used by leading software engineering teams](https://github.com/shubhamgrg04/awesome-diagramming)
+* [A curated collection of diagramming tools used by leading software engineering teams](https://github.com/shubhamgrg04/awesome-diagramming){:target="_blank"}
 
 
 ## mind
 
-* [Understanding the Monkey Mind & How to Live in Harmony with Your Mental Companion](https://www.pocketmindfulness.com/understanding-monkey-mind-live-harmony-mental-companion/)
+* [Understanding the Monkey Mind & How to Live in Harmony with Your Mental Companion](https://www.pocketmindfulness.com/understanding-monkey-mind-live-harmony-mental-companion/){:target="_blank"}
 
 ## howto
 
-* [How to learn English A guide to learning English really well](https://www.antimoon.com/how/howtolearn.htm)
+* [How to learn English A guide to learning English really well](https://www.antimoon.com/how/howtolearn.htm){:target="_blank"}
 
 ## github
 
 
 ### programmer
 
-* [Some useful websites for programmers](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
+* [Some useful websites for programmers](https://github.com/sdmg15/Best-websites-a-programmer-should-visit){:target="_blank"}
 
 ### javascript
 
-* [A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS)
+* [A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS){:target="_blank"}
 
 ### golang
 
-* [Golang conference PPT](https://github.com/gopherchina/conference)
+* [Golang conference PPT](https://github.com/gopherchina/conference){:target="_blank"}
 
 
 ### ops
 
-* [DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP](https://github.com/bregman-arie/devops-resources)
+* [DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP](https://github.com/bregman-arie/devops-resources){:target="_blank"}
 
-* [10x easier, rocket 140x lower storage cost, rocket high performance, rocket petabyte scale - Elasticsearch/Splunk/Datadog alternative for rocket (logs, metrics, traces).](https://github.com/openobserve/openobserve)
+* [10x easier, rocket 140x lower storage cost, rocket high performance, rocket petabyte scale - Elasticsearch/Splunk/Datadog alternative for rocket (logs, metrics, traces){:target="_blank"}.](https://github.com/openobserve/openobserve){:target="_blank"}
 
 ### ubuntu
 
-* [install windows app by deepin-wine](https://deepin-wine.i-m.dev/)
+* [install windows app by deepin-wine](https://deepin-wine.i-m.dev/){:target="_blank"}
 
-* [deepin source migration to debian/ubuntu](https://github.com/zq1997/deepin-wine)
+* [deepin source migration to debian/ubuntu](https://github.com/zq1997/deepin-wine){:target="_blank"}
 
 
 ### jekyll
 
-* [Add comments to your Jekyll powered blog](https://github.com/damieng/jekyll-blog-comments)
+* [Add comments to your Jekyll powered blog](https://github.com/damieng/jekyll-blog-comments){:target="_blank"}
 
-* [How to Add Comments to a Jekyll Blog](https://www.aleksandrhovhannisyan.com/blog/jekyll-comment-system-github-issues/)
+* [How to Add Comments to a Jekyll Blog](https://www.aleksandrhovhannisyan.com/blog/jekyll-comment-system-github-issues/){:target="_blank"}
 
+* [A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)](https://github.com/planetjekyll/awesome-jekyll-plugins){:target="_blank"}
 
 ### app
 
-* [High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app](https://github.com/knadh/listmonk)
+* [High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app](https://github.com/knadh/listmonk){:target="_blank"}
 
 
 ### tool
 
+### reader
+
+* [A simple and modern GTK e-book reader](https://github.com/johnfactotum/foliate){:target="_blank"}
+
 ### svc
 
-* [SoftVC VITS Singing Voice Conversion](https://github.com/svc-develop-team/so-vits-svc)
+* [SoftVC VITS Singing Voice Conversion](https://github.com/svc-develop-team/so-vits-svc){:target="_blank"}
 
 #### uml
 
-* [Gaphor is a UML and SysML modeling application written in Python](https://github.com/gaphor/gaphor)
+* [Gaphor is a UML and SysML modeling application written in Python](https://github.com/gaphor/gaphor){:target="_blank"}
 
-* [Reverse engineer Python source code into UML](https://github.com/abulka/pynsource)
+* [Reverse engineer Python source code into UML](https://github.com/abulka/pynsource){:target="_blank"}
 
-* [pyreverse](https://github.com/pylint-dev/pylint/tree/main/pylint/pyreverse)
+* [pyreverse](https://github.com/pylint-dev/pylint/tree/main/pylint/pyreverse){:target="_blank"}
 
-* [plantuml - Generate diagrams from textual description](https://github.com/plantuml/plantuml)
+* [plantuml - Generate diagrams from textual description](https://github.com/plantuml/plantuml){:target="_blank"}
 
-* [Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown](https://github.com/mermaid-js/mermaid)
+* [Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown](https://github.com/mermaid-js/mermaid){:target="_blank"}
 
-* [nomnoml - The sassy UML diagram renderer](https://github.com/skanaar/nomnoml)
+* [nomnoml - The sassy UML diagram renderer](https://github.com/skanaar/nomnoml){:target="_blank"}
 
 
 #### database
 
-* [Next-Gen ERD: Design, Explore, Document and Analyze your database](https://github.com/azimuttapp/azimutt)
+* [Next-Gen ERD: Design, Explore, Document and Analyze your database](https://github.com/azimuttapp/azimutt){:target="_blank"}
 
 ### library
 
-* [Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.](https://github.com/facebookresearch/audiocraft)
+* [Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.](https://github.com/facebookresearch/audiocraft){:target="_blank"}
 
 ### edit
 
 #### markdown
 
-* [markdown-emojis - All the emojis](https://github.com/markdown-templates/markdown-emojis)
+* [markdown-emojis - All the emojis](https://github.com/markdown-templates/markdown-emojis){:target="_blank"}
 
 ## srs
 
-* [The spaced repetition algorithm behind the Pensieve application](https://github.com/pensieve-srs/pensieve-srs)
+* [The spaced repetition algorithm behind the Pensieve application](https://github.com/pensieve-srs/pensieve-srs){:target="_blank"}
 
-* [A Better Spaced Repetition Learning Algorithm: SM2+](https://www.blueraja.com/blog/477/a-better-spaced-repetition-learning-algorithm-sm2)
+* [A Better Spaced Repetition Learning Algorithm: SM2+](https://www.blueraja.com/blog/477/a-better-spaced-repetition-learning-algorithm-sm2){:target="_blank"}
 
-* [Python library for flashcards and spaced repetition applications.](https://github.com/ebisu-flashcards/flashcards-core)
+* [Python library for flashcards and spaced repetition applications.](https://github.com/ebisu-flashcards/flashcards-core){:target="_blank"}
 
-* [Full-stack clone of Brainscape flash card SRS web application.](https://github.com/jfurukawa4392/memRizr)
+* [Full-stack clone of Brainscape flash card SRS web application.](https://github.com/jfurukawa4392/memRizr){:target="_blank"}
 
-* [An open source, lightweight client side Javascript Spaced Repetition (SRS) web application.](https://github.com/JaredBoehm/jsrs)
+* [An open source, lightweight client side Javascript Spaced Repetition (SRS){:target="_blank"} web application.](https://github.com/JaredBoehm/jsrs){:target="_blank"}
 
 
-* [A note-taking / SRS application](https://github.com/knubie/srs(https://github.com/knubie/srs)
+* [A note-taking SRS application](https://github.com/knubie/srs){:target="_blank"}
 
-* [Applications of SRS-MP2](https://github.com/sykstan/srs-app)
+* [Applications of SRS-MP2](https://github.com/sykstan/srs-app){:target="_blank"}
 
 ## search
 
 ### ebook
 
-* [Gutenberg - You will find the world’s great literature here, with focus on older works for which U.S. copyright has expired. Thousands of volunteers digitized and diligently proofread the eBooks, for you to enjoy](https://www.gutenberg.org/)
+* [Gutenberg - You will find the world’s great literature here, with focus on older works for which U.S. copyright has expired. Thousands of volunteers digitized and diligently proofread the eBooks, for you to enjoy](https://www.gutenberg.org/){:target="_blank"}
 
-* [OceanofPDF](https://oceanofpdf.com/)
+* [OceanofPDF](https://oceanofpdf.com/){:target="_blank"}
+
+## style
+
+* [Style guide for writing in English for tutorials and articles at Kodeco.](https://github.com/kodecocodes/english-style-guide){:target="_blank"}
