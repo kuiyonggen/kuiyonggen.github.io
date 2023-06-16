@@ -22,7 +22,7 @@ As a programmer, I love coding to uml. I think it wastes time to use a mouse. Ti
 
 ## Class diagram
 
-[[/assets/dia/dia.png|alt=alt text]]
+![](/assets/dia/cls.png)
 
 # mermaid.js
 
