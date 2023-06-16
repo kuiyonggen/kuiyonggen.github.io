@@ -50,4 +50,3 @@ jobs:
           commit_author: "kuiyonggen <henrysay@icloud.com>"
           commit_message: "Generate SVG and PNG images for PlantUML diagrams" 
           branch: ${{ github.head_ref }}
-          token: ${{ secrets.WIKI_TOKEN }}
