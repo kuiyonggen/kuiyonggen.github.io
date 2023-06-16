@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: '3.0' # Not needed with a .ruby-version file
+        bundler: '2.4.13'
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
     - name: Publish to GPR
