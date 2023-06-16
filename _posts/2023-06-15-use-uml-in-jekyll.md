@@ -6,6 +6,15 @@ categories: tech
 
 It works! Thanks to [PlantUML Github action](https://github.com/marketplace/actions/plantuml-generator){:target="_blank"}.
 
+The only one problem encountered is no push permission. The solution is as follow.
+
+1. Navigate to "Settings" of the github repo.
+2. Click "Actions" on left side.
+3. Choose the "Read and write permissions" item in the "Workflow permissions" section.
+4. Click the "Save" button.
+5. Trigger the action to run again.
+6. Done.
+
 And mermaid may work at the same way. But I don't need it right now. Plantuml is enough for me.
 
 ***************************************
