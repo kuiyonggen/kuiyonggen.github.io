@@ -4,7 +4,7 @@ title: "Use UML in Jekyll"
 categories: tech
 ---
 
-It works! Thanks for [PlantUML Github action](https://github.com/marketplace/actions/plantuml-generator){:target="_blank"}.
+It works! Thanks to [PlantUML Github action](https://github.com/marketplace/actions/plantuml-generator){:target="_blank"}.
 
 And mermaid may work at the same way. But I don't need it right now. Plantuml is enough for me.
 
@@ -152,3 +152,10 @@ BiRel(SystemAA, SystemE, "Uses")
 Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
 Rel(SystemC, customerA, "Sends e-mails to")
 @endmermaid
+
+## references
+
+* [How to use GitHub Actions environment variables](https://snyk.io/blog/how-to-use-github-actions-environment-variables/){:target="_blank"}
+* [Permissions for the GITHUB_TOKEN](https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token){:target="_blank"}
+* [plantuml class diagram](https://plantuml.com/class-diagram){:target="_blank"}
+* [PlantUML GitHub action](https://github.com/marketplace/actions/plantuml-generator){:target="_blank"}
