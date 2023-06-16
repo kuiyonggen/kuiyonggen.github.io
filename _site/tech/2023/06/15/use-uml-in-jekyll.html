@@ -10,8 +10,8 @@
 <meta name="generator" content="Jekyll v3.9.3">
 <meta property="og:title" content="Use UML in Jekyll">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.">
-<meta property="og:description" content="I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.">
+<meta name="description" content="It works! Thanks to PlantUML Github action.">
+<meta property="og:description" content="It works! Thanks to PlantUML Github action.">
 <link rel="canonical" href="http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll.html">
 <meta property="og:url" content="http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll.html">
 <meta property="og:site_name" content="Kuiyonggen">
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta property="twitter:title" content="Use UML in Jekyll">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-06-15T00:00:00+08:00","datePublished":"2023-06-15T00:00:00+08:00","description":"I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.","headline":"Use UML in Jekyll","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll.html"},"url":"http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-06-15T00:00:00+08:00","datePublished":"2023-06-15T00:00:00+08:00","description":"It works! Thanks to PlantUML Github action.","headline":"Use UML in Jekyll","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll.html"},"url":"http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="http://localhost:8084/feed.xml" title="Kuiyonggen">
@@ -59,7 +59,28 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - <a href="https://github.com/jeffreytse/jekyll-spaceship">A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.</a></p>
+    <p>It works! Thanks to <a href="https://github.com/marketplace/actions/plantuml-generator" target="_blank">PlantUML Github action</a>.</p>
+
+<p>The only one problem encountered is no push permission. The solution is as follow.</p>
+
+<ol>
+  <li>Navigate to “Settings” of the github repo.</li>
+  <li>Click “Actions” on left side.</li>
+  <li>Choose the “Read and write permissions” item in the “Workflow permissions” section.</li>
+  <li>Click the “Save” button.</li>
+  <li>Trigger the action to run again.</li>
+  <li>Done.</li>
+</ol>
+
+<p>And mermaid may work at the same way. But I don’t need it right now. Plantuml is enough for me.</p>
+
+<hr>
+
+<p>It doesn’t work on github page described as below. I continue to find the method to code to uml on github page.</p>
+
+<hr>
+
+<p>I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - <a href="https://github.com/jeffreytse/jekyll-spaceship">A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.</a></p>
 
 <p>I installed the plugin by following the steps in the link. Then I used some demos and found it very simple.</p>
 
@@ -73,7 +94,7 @@
 
 <h2 id="class-diagram">Class diagram</h2>
 
-<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a636c617373204f626a656374203c3c2067656e6572616c203e3e0a4f626a656374203c7c2d2d2d2041727261794c6973740a0a6e6f746520746f70206f66204f626a656374203a20496e206a6176612c20657665727920636c6173735c6e657874656e64732074686973206f6e652e0a0a6e6f7465202254686973206973206120666c6f6174696e67206e6f746522206173204e310a6e6f7465202254686973206e6f746520697320636f6e6e65637465645c6e746f207365766572616c206f626a656374732e22206173204e320a4f626a656374202e2e204e320a4e32202e2e2041727261794c6973740a0a636c61737320466f6f0a6e6f7465206c6566743a204f6e206c61737420646566696e656420636c6173730a0a40656e64756d6c"></p>
+<p><img src="/assets/dia/cls.png" alt=""></p>
 
 <h1 id="mermaidjs">mermaid.js</h1>
 
@@ -111,8 +132,21 @@
 
 <p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiQzRDb250ZXh0XG50aXRsZSBTeXN0ZW0gQ29udGV4dCBkaWFncmFtIGZvciBJbnRlcm5ldCBCYW5raW5nIFN5c3RlbVxuJSUtXG5QZXJzb24oY3VzdG9tZXJBLCBcIkJhbmtpbmcgQ3VzdG9tZXIgQVwiLCBcIkEgY3VzdG9tZXIgb2YgdGhlIGJhbmssIHdpdGggcGVyc29uYWwgYmFuayBhY2NvdW50cy5cIilcblBlcnNvbihjdXN0b21lckIsIFwiQmFua2luZyBDdXN0b21lciBCXCIpXG5QZXJzb25fRXh0KGN1c3RvbWVyQywgXCJCYW5raW5nIEN1c3RvbWVyIENcIilcblN5c3RlbShTeXN0ZW1BQSwgXCJJbnRlcm5ldCBCYW5raW5nIFN5c3RlbVwiLCBcIkFsbG93cyBjdXN0b21lcnMgdG8gdmlldyBpbmZvcm1hdGlvbiBhYm91dCB0aGVpciBiYW5rIGFjY291bnRzLCBhbmQgbWFrZSBwYXltZW50cy5cIilcbiUlLVxuUGVyc29uKGN1c3RvbWVyRCwgXCJCYW5raW5nIEN1c3RvbWVyIERcIiwgXCJBIGN1c3RvbWVyIG9mIHRoZSBiYW5rLCA8YnIvPiB3aXRoIHBlcnNvbmFsIGJhbmsgYWNjb3VudHMuXCIpXG4lJS1cbkVudGVycHJpc2VfQm91bmRhcnkoYjEsIFwiQmFua0JvdW5kYXJ5XCIpIHtcbiUlLVxuU3lzdGVtRGJfRXh0KFN5c3RlbUUsIFwiTWFpbmZyYW1lIEJhbmtpbmcgU3lzdGVtXCIsIFwiU3RvcmVzIGFsbCBvZiB0aGUgY29yZSBiYW5raW5nIGluZm9ybWF0aW9uIGFib3V0IGN1c3RvbWVycywgYWNjb3VudHMsIHRyYW5zYWN0aW9ucywgZXRjLlwiKVxuJSUtXG5TeXN0ZW1fQm91bmRhcnkoYjIsIFwiQmFua0JvdW5kYXJ5MlwiKSB7XG5TeXN0ZW0oU3lzdGVtQSwgXCJCYW5raW5nIFN5c3RlbSBBXCIpXG5TeXN0ZW0oU3lzdGVtQiwgXCJCYW5raW5nIFN5c3RlbSBCXCIsIFwiQSBzeXN0ZW0gb2YgdGhlIGJhbmssIHdpdGggcGVyc29uYWwgYmFuayBhY2NvdW50cy5cIilcbn1cbiUlLVxuU3lzdGVtX0V4dChTeXN0ZW1DLCBcIkUtbWFpbCBzeXN0ZW1cIiwgXCJUaGUgaW50ZXJuYWwgTWljcm9zb2Z0IEV4Y2hhbmdlIGUtbWFpbCBzeXN0ZW0uXCIpXG5TeXN0ZW1EYihTeXN0ZW1ELCBcIkJhbmtpbmcgU3lzdGVtIEQgRGF0YWJhc2VcIiwgXCJBIHN5c3RlbSBvZiB0aGUgYmFuaywgd2l0aCBwZXJzb25hbCBiYW5rIGFjY291bnRzLlwiKVxuJSUtXG5Cb3VuZGFyeShiMywgXCJCYW5rQm91bmRhcnkzXCIsIFwiYm91bmRhcnlcIikge1xuU3lzdGVtUXVldWUoU3lzdGVtRiwgXCJCYW5raW5nIFN5c3RlbSBGIFF1ZXVlXCIsIFwiQSBzeXN0ZW0gb2YgdGhlIGJhbmssIHdpdGggcGVyc29uYWwgYmFuayBhY2NvdW50cy5cIilcblN5c3RlbVF1ZXVlX0V4dChTeXN0ZW1HLCBcIkJhbmtpbmcgU3lzdGVtIEcgUXVldWVcIiwgXCJBIHN5c3RlbSBvZiB0aGUgYmFuaywgd2l0aCBwZXJzb25hbCBiYW5rIGFjY291bnRzLlwiKVxufVxufVxuJSUtXG5CaVJlbChjdXN0b21lckEsIFN5c3RlbUFBLCBcIlVzZXNcIilcbkJpUmVsKFN5c3RlbUFBLCBTeXN0ZW1FLCBcIlVzZXNcIilcblJlbChTeXN0ZW1BQSwgU3lzdGVtQywgXCJTZW5kcyBlLW1haWxzXCIsIFwiU01UUFwiKVxuUmVsKFN5c3RlbUMsIGN1c3RvbWVyQSwgXCJTZW5kcyBlLW1haWxzIHRvXCIpIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0"></p>
 
+<h2 id="references">references</h2>
+
+<ul>
+  <li><a href="https://snyk.io/blog/how-to-use-github-actions-environment-variables/" target="_blank">How to use GitHub Actions environment variables</a></li>
+  <li><a href="https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token" target="_blank">Permissions for the GITHUB_TOKEN</a></li>
+  <li><a href="https://plantuml.com/class-diagram" target="_blank">plantuml class diagram</a></li>
+  <li><a href="https://github.com/marketplace/actions/plantuml-generator" target="_blank">PlantUML GitHub action</a></li>
+</ul>
+
   </div>
-<a class="u-url" href="/tech/2023/06/15/use-uml-in-jekyll.html" hidden></a>
+
+<script src="https://utteranc.es/client.js" repo="kuiyonggen/kuiyonggen.github.io" issue-term="url" theme="github-light" crossorigin="anonymous" async>
+</script>
+
+  <a class="u-url" href="/tech/2023/06/15/use-uml-in-jekyll.html" hidden></a>
 </article>
 
       </div>
