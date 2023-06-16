@@ -1,4 +1,4 @@
-@startXYZ cls
+@startuml
 class Object << general >>
 Object <|--- ArrayList
 
@@ -11,4 +11,4 @@ N2 .. ArrayList
 
 class Foo
 note left: On last defined class
-@endXYZ
+@enduml
