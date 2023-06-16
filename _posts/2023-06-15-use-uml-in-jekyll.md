@@ -4,6 +4,12 @@ title: "Use UML in Jekyll"
 categories: tech
 ---
 
+It works! Thanks for [PlantUML Github action](https://github.com/marketplace/actions/plantuml-generator){:target="_blank"}.
+
+And mermaid may work at the same way. But I don't need it right now. Plantuml is enough for me.
+
+***************************************
+
 It doesn't work on github page described as below. I continue to find the method to code to uml on github page.
 
 ****************************************
