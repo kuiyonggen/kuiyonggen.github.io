@@ -3,6 +3,20 @@ layout: post
 title: "Use UML in Jekyll"
 categories: tech
 ---
+## Update 2
+
+
+I works! That's what I want. Thanks to github action and this blog([Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}).
+
+"Keep looking, don't settle!" - by Steve Jobs.
+
+That's the only way to find what you want.
+
+I will keep looking too and make the website better and better.
+
+***************************************
+## Update 1
+
 
 It works! Thanks to [PlantUML Github action](https://github.com/marketplace/actions/plantuml-generator){:target="_blank"}.
 
@@ -22,6 +36,8 @@ And mermaid may work at the same way. But I don't need it right now. Plantuml is
 It doesn't work on github page described as below. I continue to find the method to code to uml on github page.
 
 ****************************************
+
+## Original
 
 I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - [A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.](https://github.com/jeffreytse/jekyll-spaceship)
 
@@ -177,6 +193,7 @@ Rel(SystemC, customerA, "Sends e-mails to")
 
 ## references
 
+* [Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}
 * [How to use GitHub Actions environment variables](https://snyk.io/blog/how-to-use-github-actions-environment-variables/){:target="_blank"}
 * [Permissions for the GITHUB_TOKEN](https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token){:target="_blank"}
 * [plantuml class diagram](https://plantuml.com/class-diagram){:target="_blank"}
