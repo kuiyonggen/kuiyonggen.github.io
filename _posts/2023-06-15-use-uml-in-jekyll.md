@@ -6,11 +6,55 @@ categories: tech
 ## Update 2
 
 
-I works! That's what I want. Thanks to github action and this blog([Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}).
+I works! That's what I want. Thanks to Github action and this post([Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}).
+
+There may be two problems as follow.
+
+1. build error
+
+
+```bash
+GitHub Metadata: Error processing value 'baseurl':
+  Liquid Exception: No repo name found. Specify using PAGES_REPO_NWO environment variables, 'repository' in your configuration, or set up an 'origin' git remote pointing to your github.com repository. in /_layouts/post.html
+             ERROR: YOUR SITE COULD NOT BE BUILT:
+                    ------------------------------------
+                    No repo name found. Specify using PAGES_REPO_NWO environment variables, 'repository' in your configuration, or set up an 'origin' git remote pointing to your github.com repository.
+Error: Process completed with exit code 1.
+```
+
+The solution is adding the repository setting in _config.yml between 'title' and 'author'. Then commit and push to trigger the Github action again.
+
+```
+title: Kuiyonggen
+repository: kuiyonggen/kuiyonggen.github.io
+author: Kuiyonggen
+```
+
+
+2. The url of the deployed page contained "pages/kuiyonggen", which caused that static files were not found.
+
+The solution is change the bundle execute command in .github/workflow/pages.yml.
+
+```bash 
+# original
+# I don't know how to display double curly baces in the code block. 
+# It wasted time to fix it. I noted here for others and me.
+# Thanks to the post: link How to escape double curly braces in Jekyll.
+# https://devcoops.com/escape-double-curly-braces-inside-a-markdown/
+# As it mentioned:
+# Jekyll uses liquid tags, so if you are searching 
+# how to escape double curly braces in Markdown 
+# it will not solve the issue.
+{% raw %}
+run: bundle exec jekyll build --baseurl ${{ steps.pages.outputs.base_path }} --profile --trace
+{% endraw %}
+# changed
+run: bundle exec jekyll build --baseurl '' --profile --trace
+```
 
 "Keep looking, don't settle!" - by Steve Jobs.
 
-That's the only way to find what you want.
+I think that's the only way to find what you want.
 
 I will keep looking too and make the website better and better.
 
