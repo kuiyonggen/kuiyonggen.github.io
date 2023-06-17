@@ -3,6 +3,9 @@ layout: post
 title: "Todo class diagram"
 categories: tech
 ---
+
+I make the below todo class diagram with plantuml in order to think about good design of a todo app.
+
 @startuml
 class Todo {
     - title: string

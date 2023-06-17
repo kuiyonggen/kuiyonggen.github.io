@@ -3,9 +3,7 @@ layout: post
 title: "Use UML in Jekyll"
 categories: tech
 ---
-## Update 2
-
-
+**Update 2.**
 It works! That's what I want. Thanks to Github action and this post([Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}).
 
 There were two problems as follow.
@@ -60,9 +58,7 @@ I think that's the only way to find what you want.
 I will keep looking too and make the blog better and better.
 
 ***************************************
-## Update 1
-
-
+**Update 1.**
 It works! Thanks to [PlantUML Github action](https://github.com/marketplace/actions/plantuml-generator){:target="_blank"}.
 
 The only one problem encountered is no push permission. The solution is as follow.
@@ -82,8 +78,7 @@ It doesn't work on github page described as below. I continue to find the method
 
 ****************************************
 
-## Original
-
+**First post.**
 I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - [A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.](https://github.com/jeffreytse/jekyll-spaceship)
 
 I installed the plugin by following the steps in the link. Then I used some demos and found it very simple.
