@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:8084/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:8084/" rel="alternate" type="text/html" /><updated>2023-06-17T20:24:40+08:00</updated><id>http://localhost:8084/feed.xml</id><title type="html">Kuiyonggen</title><subtitle>Let kids grow up in love!</subtitle><author><name>Kuiyonggen</name></author><entry><title type="html">Todo class diagram</title><link href="http://localhost:8084/tech/2023/06/17/todo-class-diagram.html" rel="alternate" type="text/html" title="Todo class diagram" /><published>2023-06-17T00:00:00+08:00</published><updated>2023-06-17T00:00:00+08:00</updated><id>http://localhost:8084/tech/2023/06/17/todo-class-diagram</id><content type="html" xml:base="http://localhost:8084/tech/2023/06/17/todo-class-diagram.html">&lt;p&gt;&lt;img class=&quot;plantuml&quot; src=&quot;http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a636c61737320546f646f207b0a202020202d207469746c653a20737472696e670a202020202d20636f6e74656e743a20737472696e670a202020202d20646f6e653a2066616c73650a202020202d2063726561746554696d653a206461746574696d650a202020202d2075706461746554696d653a206461746574696d650a202020202d207573657249643a2075696e740a202020202b2061646428293a20766f69640a202020202b2064657461696c28293a20766f69640a202020202b20646f6e6528293a20766f69640a202020202b2072656d6f766528293a20766f69640a202020202b2073756273637269626528293a20766f69640a202020202320696e666f726d28293a20766f69640a202020202d20706f737428293a20766f6964200a7d0a40656e64756d6c&quot; /&gt;&lt;/p&gt;</content><author><name>Kuiyonggen</name></author><category term="tech" /><summary type="html"></summary></entry><entry><title type="html">Use UML in Jekyll</title><link href="http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll.html" rel="alternate" type="text/html" title="Use UML in Jekyll" /><published>2023-06-15T00:00:00+08:00</published><updated>2023-06-15T00:00:00+08:00</updated><id>http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll</id><content type="html" xml:base="http://localhost:8084/tech/2023/06/15/use-uml-in-jekyll.html">&lt;h2 id=&quot;update-2&quot;&gt;Update 2&lt;/h2&gt;
+
+&lt;p&gt;It works! That’s what I want. Thanks to Github action and this post(&lt;a href=&quot;https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20&quot; target=&quot;blank&quot;&gt;Deploying Jekyll sites to GitHub Pages using GitHub Actions&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;There were two problems as follow.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;build error&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;GitHub Metadata: Error processing value &lt;span class=&quot;s1&quot;&gt;&apos;baseurl&apos;&lt;/span&gt;:
+  Liquid Exception: No repo name found. Specify using PAGES_REPO_NWO environment variables, &lt;span class=&quot;s1&quot;&gt;&apos;repository&apos;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;your configuration, or &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;up an &lt;span class=&quot;s1&quot;&gt;&apos;origin&apos;&lt;/span&gt; git remote pointing to your github.com repository. &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; /_layouts/post.html
+             ERROR: YOUR SITE COULD NOT BE BUILT:
+                    &lt;span class=&quot;nt&quot;&gt;------------------------------------&lt;/span&gt;
+                    No repo name found. Specify using PAGES_REPO_NWO environment variables, &lt;span class=&quot;s1&quot;&gt;&apos;repository&apos;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;your configuration, or &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;up an &lt;span class=&quot;s1&quot;&gt;&apos;origin&apos;&lt;/span&gt; git remote pointing to your github.com repository.
+Error: Process completed with &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;code 1.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The solution is adding the repository setting in _config.yml between ‘title’ and ‘author’. Then commit and push to trigger the Github action again.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;title: Kuiyonggen
+repository: kuiyonggen/kuiyonggen.github.io
+author: Kuiyonggen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The url of the deployed page contained “pages/kuiyonggen”, which caused that static files were not found.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The solution is changing the bundle execute command in .github/workflow/pages.yml.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# original&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# I didn&apos;t know how to display double curly baces in the code block. &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# It wasted time to fix it. I noted here for others and me.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Thanks to the post: link How to escape double curly braces in Jekyll.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# https://devcoops.com/escape-double-curly-braces-inside-a-markdown/&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# As it mentioned:&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Jekyll uses liquid tags, so if you are searching &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# how to escape double curly braces in Markdown &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# it will not solve the issue.&lt;/span&gt;
+
+run: bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll build &lt;span class=&quot;nt&quot;&gt;--baseurl&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{ steps.pages.outputs.base_path &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--profile&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--trace&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# changed&lt;/span&gt;
+run: bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll build &lt;span class=&quot;nt&quot;&gt;--baseurl&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;&apos;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--profile&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--trace&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Keep looking, don’t settle!” - by Steve Jobs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think that’s the only way to find what you want.&lt;/p&gt;
+
+&lt;p&gt;I will keep looking too and make the blog better and better.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;update-1&quot;&gt;Update 1&lt;/h2&gt;
+
+&lt;p&gt;It works! Thanks to &lt;a href=&quot;https://github.com/marketplace/actions/plantuml-generator&quot; target=&quot;_blank&quot;&gt;PlantUML Github action&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The only one problem encountered is no push permission. The solution is as follow.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Navigate to “Settings” of the github repo.&lt;/li&gt;
+  &lt;li&gt;Click “Actions” on left side.&lt;/li&gt;
+  &lt;li&gt;Choose the “Read and write permissions” item in the “Workflow permissions” section.&lt;/li&gt;
+  &lt;li&gt;Click the “Save” button.&lt;/li&gt;
+  &lt;li&gt;Trigger the action to run again.&lt;/li&gt;
+  &lt;li&gt;Done.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And mermaid may work at the same way. But I don’t need it right now. Plantuml is enough for me.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;It doesn’t work on github page described as below. I continue to find the method to code to uml on github page.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;original&quot;&gt;Original&lt;/h2&gt;
+
+&lt;p&gt;I was looking for an uml plugin for my jekyll website. I found some plugins worked at local environment and must install some dependencies. Those were not what I wanted. Today I found this plugin - &lt;a href=&quot;https://github.com/jeffreytse/jekyll-spaceship&quot;&gt;A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I installed the plugin by following the steps in the link. Then I used some demos and found it very simple.&lt;/p&gt;
+
+&lt;p&gt;As a programmer, I love coding to uml. I think it wastes time to use a mouse. Time is limited. So It’s important to focus on coding to make something valuable.&lt;/p&gt;
+
+&lt;h1 id=&quot;plantuml&quot;&gt;plantuml&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plantuml.com/class-diagram&quot;&gt;plantuml class diagram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;class-diagram&quot;&gt;Class diagram&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;plantuml&quot; src=&quot;http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a636c617373204f626a656374203c3c2067656e6572616c203e3e0a4f626a656374203c7c2d2d2d2041727261794c6973740a0a6e6f746520746f70206f66204f626a656374203a20496e206a6176612c20657665727920636c6173735c6e657874656e64732074686973206f6e652e0a0a6e6f7465202254686973206973206120666c6f6174696e67206e6f746522206173204e310a6e6f7465202254686973206e6f746520697320636f6e6e65637465645c6e746f207365766572616c206f626a656374732e22206173204e320a4f626a656374202e2e204e320a4e32202e2e2041727261794c6973740a0a636c61737320466f6f0a6e6f7465206c6566743a204f6e206c61737420646566696e656420636c6173730a40656e64756d6c&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;mermaidjs&quot;&gt;mermaid.js&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mermaid.js.org/syntax/flowchart.html&quot;&gt;mermaid.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;flowchart&quot;&gt;Flowchart&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4lJS1cbkFcXFtFYXN5XSAtLT58VGV4dHwgQlxcKEdvb2QpXG5CIC0tPiBDe0RlY2lzaW9ufVxuQyAtLT58T25lfCBEXFxbUmVzdWx0IDFdXG5DIC0tPnxUd298IEVcXFtSZXN1bHQgMl0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sequence-diagram&quot;&gt;Sequence diagram&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5BbGljZS0-PkpvaG46IEhlbGxvIEpvaG4sIGhvdyBhcmUgeW91P1xubG9vcCBIZWFsdGhjaGVja1xuSm9obi0-PkpvaG46IEZpZ2h0IGFnYWluc3QgaHlwb2Nob25kcmlhXG5lbmRcbk5vdGUgcmlnaHQgb2YgSm9objogUmF0aW9uYWwgdGhvdWdodHMhXG5Kb2huLS0-PkFsaWNlOiBHcmVhdCFcbkpvaG4tPj5Cb2I6IEhvdyBhYm91dCB5b3U_XG5Cb2ItLT4-Sm9objogSm9sbHkgZ29vZCEiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gantt-chart&quot;&gt;Gantt chart&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ2FudHRcbnNlY3Rpb24gU2VjdGlvblxuQ29tcGxldGVkIDpkb25lLCAgICBkZXMxLCAyMDE0LTAxLTA2LDIwMTQtMDEtMDhcbkFjdGl2ZSAgICAgICAgOmFjdGl2ZSwgIGRlczIsIDIwMTQtMDEtMDcsIDNkXG5QYXJhbGxlbCAxICAgOiAgICAgICAgIGRlczMsIGFmdGVyIGRlczEsIDFkXG5QYXJhbGxlbCAyICAgOiAgICAgICAgIGRlczQsIGFmdGVyIGRlczEsIDFkXG5QYXJhbGxlbCAzICAgOiAgICAgICAgIGRlczUsIGFmdGVyIGRlczMsIDFkXG5QYXJhbGxlbCA0ICAgOiAgICAgICAgIGRlczYsIGFmdGVyIGRlczQsIDFkIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;state-diagram&quot;&gt;State diagram&lt;/h2&gt;
+
+&lt;p&gt;I don’t know why it happend. It’s too big. I didn’t find a solution to fix it. But it doesn’t matter. Just use another processor. Plantuml works for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoic3RhdGVEaWFncmFtLXYyXG5bKl0gLS0-IFN0aWxsXG5TdGlsbCAtLT4gWypdXG4lJS1cblN0aWxsIC0tPiBNb3Zpbmdcbk1vdmluZyAtLT4gU3RpbGxcbk1vdmluZyAtLT4gQ3Jhc2hcbkNyYXNoIC0tPiBbKl0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pie-chart&quot;&gt;Pie chart&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoicGllXG5cIkRvZ3NcIiA6IDM4NlxuXCJDYXRzXCIgOiA4NS45XG5cIlJhdHNcIiA6IDE1IiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;user-journey-diagram&quot;&gt;User Journey diagram&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiam91cm5leVxudGl0bGUgTXkgd29ya2luZyBkYXlcbnNlY3Rpb24gR28gdG8gd29ya1xuTWFrZSB0ZWE6IDU6IE1lXG5HbyB1cHN0YWlyczogMzogTWVcbkRvIHdvcms6IDE6IE1lLCBDYXRcbnNlY3Rpb24gR28gaG9tZVxuR28gZG93bnN0YWlyczogNTogTWVcblNpdCBkb3duOiAzOiBNZSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;c4-diagram&quot;&gt;C4 diagram&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiQzRDb250ZXh0XG50aXRsZSBTeXN0ZW0gQ29udGV4dCBkaWFncmFtIGZvciBJbnRlcm5ldCBCYW5raW5nIFN5c3RlbVxuJSUtXG5QZXJzb24oY3VzdG9tZXJBLCBcIkJhbmtpbmcgQ3VzdG9tZXIgQVwiLCBcIkEgY3VzdG9tZXIgb2YgdGhlIGJhbmssIHdpdGggcGVyc29uYWwgYmFuayBhY2NvdW50cy5cIilcblBlcnNvbihjdXN0b21lckIsIFwiQmFua2luZyBDdXN0b21lciBCXCIpXG5QZXJzb25fRXh0KGN1c3RvbWVyQywgXCJCYW5raW5nIEN1c3RvbWVyIENcIilcblN5c3RlbShTeXN0ZW1BQSwgXCJJbnRlcm5ldCBCYW5raW5nIFN5c3RlbVwiLCBcIkFsbG93cyBjdXN0b21lcnMgdG8gdmlldyBpbmZvcm1hdGlvbiBhYm91dCB0aGVpciBiYW5rIGFjY291bnRzLCBhbmQgbWFrZSBwYXltZW50cy5cIilcbiUlLVxuUGVyc29uKGN1c3RvbWVyRCwgXCJCYW5raW5nIEN1c3RvbWVyIERcIiwgXCJBIGN1c3RvbWVyIG9mIHRoZSBiYW5rLCA8YnIvPiB3aXRoIHBlcnNvbmFsIGJhbmsgYWNjb3VudHMuXCIpXG4lJS1cbkVudGVycHJpc2VfQm91bmRhcnkoYjEsIFwiQmFua0JvdW5kYXJ5XCIpIHtcbiUlLVxuU3lzdGVtRGJfRXh0KFN5c3RlbUUsIFwiTWFpbmZyYW1lIEJhbmtpbmcgU3lzdGVtXCIsIFwiU3RvcmVzIGFsbCBvZiB0aGUgY29yZSBiYW5raW5nIGluZm9ybWF0aW9uIGFib3V0IGN1c3RvbWVycywgYWNjb3VudHMsIHRyYW5zYWN0aW9ucywgZXRjLlwiKVxuJSUtXG5TeXN0ZW1fQm91bmRhcnkoYjIsIFwiQmFua0JvdW5kYXJ5MlwiKSB7XG5TeXN0ZW0oU3lzdGVtQSwgXCJCYW5raW5nIFN5c3RlbSBBXCIpXG5TeXN0ZW0oU3lzdGVtQiwgXCJCYW5raW5nIFN5c3RlbSBCXCIsIFwiQSBzeXN0ZW0gb2YgdGhlIGJhbmssIHdpdGggcGVyc29uYWwgYmFuayBhY2NvdW50cy5cIilcbn1cbiUlLVxuU3lzdGVtX0V4dChTeXN0ZW1DLCBcIkUtbWFpbCBzeXN0ZW1cIiwgXCJUaGUgaW50ZXJuYWwgTWljcm9zb2Z0IEV4Y2hhbmdlIGUtbWFpbCBzeXN0ZW0uXCIpXG5TeXN0ZW1EYihTeXN0ZW1ELCBcIkJhbmtpbmcgU3lzdGVtIEQgRGF0YWJhc2VcIiwgXCJBIHN5c3RlbSBvZiB0aGUgYmFuaywgd2l0aCBwZXJzb25hbCBiYW5rIGFjY291bnRzLlwiKVxuJSUtXG5Cb3VuZGFyeShiMywgXCJCYW5rQm91bmRhcnkzXCIsIFwiYm91bmRhcnlcIikge1xuU3lzdGVtUXVldWUoU3lzdGVtRiwgXCJCYW5raW5nIFN5c3RlbSBGIFF1ZXVlXCIsIFwiQSBzeXN0ZW0gb2YgdGhlIGJhbmssIHdpdGggcGVyc29uYWwgYmFuayBhY2NvdW50cy5cIilcblN5c3RlbVF1ZXVlX0V4dChTeXN0ZW1HLCBcIkJhbmtpbmcgU3lzdGVtIEcgUXVldWVcIiwgXCJBIHN5c3RlbSBvZiB0aGUgYmFuaywgd2l0aCBwZXJzb25hbCBiYW5rIGFjY291bnRzLlwiKVxufVxufVxuJSUtXG5CaVJlbChjdXN0b21lckEsIFN5c3RlbUFBLCBcIlVzZXNcIilcbkJpUmVsKFN5c3RlbUFBLCBTeXN0ZW1FLCBcIlVzZXNcIilcblJlbChTeXN0ZW1BQSwgU3lzdGVtQywgXCJTZW5kcyBlLW1haWxzXCIsIFwiU01UUFwiKVxuUmVsKFN5c3RlbUMsIGN1c3RvbWVyQSwgXCJTZW5kcyBlLW1haWxzIHRvXCIpIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;references&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20&quot; target=&quot;blank&quot;&gt;Deploying Jekyll sites to GitHub Pages using GitHub Actions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://snyk.io/blog/how-to-use-github-actions-environment-variables/&quot; target=&quot;_blank&quot;&gt;How to use GitHub Actions environment variables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token&quot; target=&quot;_blank&quot;&gt;Permissions for the GITHUB_TOKEN&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plantuml.com/class-diagram&quot; target=&quot;_blank&quot;&gt;plantuml class diagram&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/actions/plantuml-generator&quot; target=&quot;_blank&quot;&gt;PlantUML GitHub action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Kuiyonggen</name></author><category term="tech" /><summary type="html">Update 2</summary></entry><entry><title type="html">Just read</title><link href="http://localhost:8084/read/2023/06/14/just-read.html" rel="alternate" type="text/html" title="Just read" /><published>2023-06-14T00:00:00+08:00</published><updated>2023-06-14T00:00:00+08:00</updated><id>http://localhost:8084/read/2023/06/14/just-read</id><content type="html" xml:base="http://localhost:8084/read/2023/06/14/just-read.html">&lt;p&gt;My daughter is ten years old. She gets up around 5:20AM. She doesn’t need a clock. But she had trouble to get up a few months ago.&lt;/p&gt;
+
+&lt;p&gt;I want to help her to form a good habit of getting up. Because I think it wastes time to consume it in bed during every morning. And the most important, I want her to like reading.&lt;/p&gt;
+
+&lt;p&gt;Why do I do this? I think it’s the best way to help a kid to grow up by their own. Reading can help a kid a lot. But first She must like reading. I want her to read in every morning.  Because I think it’s a good habit of reading.&lt;/p&gt;
+
+&lt;p&gt;In fact, I tried about three years ago. But I failed. I gave her my Kindle to read tales. I found she had trouble to read. She was at the beginning of studying and knew few words. Then I gave her a dictionary, taught her how to use it, and made sure she learned how to look up a word in the dictionary. I left her alone, reading tales on a small chair.&lt;/p&gt;
+
+&lt;p&gt;When she finished reading. I asked her to tell tales to me. I found she did a good job. But she didn’t show much interest in reading. So I didn’t let her use the Kindle to read.&lt;/p&gt;
+
+&lt;p&gt;A half year ago, her mother bought her iPad for studying class lessons. But she used it to watch videos all the time. It might cause her eye trouble. I didn’t know how to help her. Because she loved to watch videos so much. In another day, she came to tell me that she was reading novels from some novel app. She loved reading novels so much. But she still watched videos sometimes. I thought it to get better.&lt;/p&gt;
+
+&lt;p&gt;Her mother opposite my daughter to use the iPad all the time, including watching videos and reading novels. They argued and fight for the problem. I saw the problem and decided to change something. I told my daughter that if she can get up around five she can do anything she wanted and her mother was sleeping well.&lt;/p&gt;
+
+&lt;p&gt;She did it in the second day. She used the iPad clock to wake her up. Her mother was angry with the clock, and afraid it’s harmful to get up around 5:20AM for her. I’m afraid too.&lt;/p&gt;
+
+&lt;p&gt;I decided to help her to go to sleep around 8:00PM. She also got up around 5:20AM without a clock. I thought she formed the habit. But she still used the iPad all the time.&lt;/p&gt;
+
+&lt;p&gt;Her mother was afraid it may affect her studying in school and forbidding her to use the iPad. I thought of the Kindle again. So I gave her the Kindle and open my e-book library to her. The library contained tens of thousands of all kinds of books, including many novels. She can read anything she loves.&lt;/p&gt;
+
+&lt;p&gt;She came to tell me that the novels were less interesting than those from the app.&lt;/p&gt;</content><author><name>Kuiyonggen</name></author><category term="read" /><summary type="html">My daughter is ten years old. She gets up around 5:20AM. She doesn’t need a clock. But she had trouble to get up a few months ago.</summary></entry><entry><title type="html">Welcome To Kuiyonggen</title><link href="http://localhost:8084/2023/06/09/welcome-to-kuiyonggen.html" rel="alternate" type="text/html" title="Welcome To Kuiyonggen" /><published>2023-06-09T00:00:00+08:00</published><updated>2023-06-09T00:00:00+08:00</updated><id>http://localhost:8084/2023/06/09/welcome-to-kuiyonggen</id><content type="html" xml:base="http://localhost:8084/2023/06/09/welcome-to-kuiyonggen.html">&lt;ul&gt;
+  &lt;li&gt;:snake: Hi, I’m @kuiyonggen.&lt;/li&gt;
+  &lt;li&gt;:fish: I’m interested in reading and writing.&lt;/li&gt;
+  &lt;li&gt;:monkey: I’m currently learning dev skills of apps.&lt;/li&gt;
+  &lt;li&gt;:pig: I’m looking to exchange thoughts on life and work.&lt;/li&gt;
+  &lt;li&gt;:man: I’m a father of two kids.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Kuiyonggen</name></author><summary type="html">:snake: Hi, I’m @kuiyonggen. :fish: I’m interested in reading and writing. :monkey: I’m currently learning dev skills of apps. :pig: I’m looking to exchange thoughts on life and work. :man: I’m a father of two kids.</summary></entry></feed>

@@ -6,9 +6,9 @@ categories: tech
 ## Update 2
 
 
-I works! That's what I want. Thanks to Github action and this post([Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}).
+It works! That's what I want. Thanks to Github action and this post([Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}).
 
-There may be two problems as follow.
+There were two problems as follow.
 
 1. build error
 
@@ -33,11 +33,12 @@ author: Kuiyonggen
 
 2. The url of the deployed page contained "pages/kuiyonggen", which caused that static files were not found.
 
-The solution is change the bundle execute command in .github/workflow/pages.yml.
+The solution is changing the bundle execute command in .github/workflow/pages.yml.
 
 ```bash 
 # original
-# I don't know how to display double curly baces in the code block. 
+#
+# I didn't know how to display double curly baces in the code block. 
 # It wasted time to fix it. I noted here for others and me.
 # Thanks to the post: link How to escape double curly braces in Jekyll.
 # https://devcoops.com/escape-double-curly-braces-inside-a-markdown/
@@ -52,11 +53,11 @@ run: bundle exec jekyll build --baseurl ${{ steps.pages.outputs.base_path }} --p
 run: bundle exec jekyll build --baseurl '' --profile --trace
 ```
 
-"Keep looking, don't settle!" - by Steve Jobs.
+> "Keep looking, don't settle!" - by Steve Jobs.
 
 I think that's the only way to find what you want.
 
-I will keep looking too and make the website better and better.
+I will keep looking too and make the blog better and better.
 
 ***************************************
 ## Update 1
