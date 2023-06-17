@@ -24,10 +24,9 @@ permalink: /link/
 
 * [](){:target="blank"}
 
-## github
 
 
-### programmer
+## programmer
 
 * [betterdev](https://betterdev.link/){:target="_blank"}
 
@@ -107,25 +106,25 @@ permalink: /link/
 
 
 
-### javascript
+## javascript
 
 * [A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS){:target="_blank"}
 * [](){:target="blank"}
 
-### golang
+## golang
 
 * [Golang conference PPT](https://github.com/gopherchina/conference){:target="_blank"}
 * [](){:target="blank"}
 
 
-### ops
+## ops
 
 * [DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP](https://github.com/bregman-arie/devops-resources){:target="_blank"}
 
 * [10x easier, rocket 140x lower storage cost, rocket high performance, rocket petabyte scale - Elasticsearch/Splunk/Datadog alternative for rocket (logs, metrics, traces){:target="_blank"}.](https://github.com/openobserve/openobserve){:target="_blank"}
 * [](){:target="blank"}
 
-### ubuntu
+## ubuntu
 
 * [install windows app by deepin-wine](https://deepin-wine.i-m.dev/){:target="_blank"}
 
@@ -133,13 +132,13 @@ permalink: /link/
 * [](){:target="blank"}
 
 
-### jekyll
+## jekyll
 
 * [How to add comments in blog posts on GitHub-pages websites](https://webapps.stackexchange.com/questions/165528/how-to-add-comments-in-blog-posts-on-github-pages-websites){:target="_blank"}
 * [utteranc.es install](https://utteranc.es/?installation_id=38663828&setup_action=install){:target="_blank"}
 * [](){:target="_blank"}
 
-* [ A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.](https://github.com/jeffreytse/jekyll-spaceship){:target="_blank"}
+* [ jekyll-spaceship - A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.](https://github.com/jeffreytse/jekyll-spaceship){:target="_blank"}
 
 * [Add comments to your Jekyll powered blog](https://github.com/damieng/jekyll-blog-comments){:target="_blank"}
 
@@ -148,39 +147,47 @@ permalink: /link/
 * [A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)](https://github.com/planetjekyll/awesome-jekyll-plugins){:target="_blank"}
 * [](){:target="blank"}
 
-### app
+## app
 
 * [High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app](https://github.com/knadh/listmonk){:target="_blank"}
 * [](){:target="blank"}
 
 
-### chrome
+## chrome
 
 * [How to Create Your Own Google Chrome Extension](https://www.freecodecamp.org/news/building-chrome-extension/){:target="_blank"}
 
 * [Chrome-Extension: iterate through all tabs?](https://javascript.tutorialink.com/chrome-extension-iterate-through-all-tabs/){:target="_blank"}
 * [](){:target="blank"}
 
-### work flow
+## work flow
 
 * [A distributed hydrological modeling platform](https://github.com/openstreams/wflow){:target="_blank"}
 
 * [wflow](https://github.com/willianfu/wflow){:target="_blank"}
+
 * [](){:target="blank"}
 
-### tool
+## game
 
-### reader
+
+* [YimMenu, a GTA V menu oriented at protecting from crashes (not all currently) and improving the overall experience](https://github.com/YimMenu/YimMenu){:target="blank"}
+
+
+* [](){:target="blank"}
+
+
+## reader
 
 * [A simple and modern GTK e-book reader](https://github.com/johnfactotum/foliate){:target="_blank"}
 * [](){:target="blank"}
 
-### svc
+## svc
 
 * [SoftVC VITS Singing Voice Conversion](https://github.com/svc-develop-team/so-vits-svc){:target="_blank"}
 * [](){:target="blank"}
 
-#### uml
+## uml
 
 * [Plantuml](https://plantuml.com/){:target="_blank"}
 
@@ -198,19 +205,18 @@ permalink: /link/
 
 * [](){:target="blank"}
 
-#### database
+## database
 
 * [Next-Gen ERD: Design, Explore, Document and Analyze your database](https://github.com/azimuttapp/azimutt){:target="_blank"}
 * [](){:target="blank"}
 
-### library
+## library
 
 * [Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.](https://github.com/facebookresearch/audiocraft){:target="_blank"}
 * [](){:target="blank"}
 
-### edit
 
-#### markdown
+## markdown
 
 * [markdown-emojis - All the emojis](https://github.com/markdown-templates/markdown-emojis){:target="_blank"}
 * [](){:target="blank"}
@@ -234,9 +240,8 @@ permalink: /link/
 
 * [](){:target="blank"}
 
-## search
 
-### ebook
+## ebook
 
 * [Gutenberg - You will find the world’s great literature here, with focus on older works for which U.S. copyright has expired. Thousands of volunteers digitized and diligently proofread the eBooks, for you to enjoy](https://www.gutenberg.org/){:target="_blank"}
 
@@ -263,7 +268,16 @@ permalink: /link/
 
 * [Chinese Style Guide, a set of standards for writing and formatting articles in Chinese language and Chinese-English mixed content](https://github.com/RightCapitalHQ/chinese-style-guide){:target="_blank"}
 
+
 * [](){:target="blank"}
+
+## ai
+
+* [Interact privately with your documents using the power of GPT, 100% privately, no data leaks](https://github.com/imartinez/privateGPT){:target="blank"}
+
+* [](){:target="blank"}
+
+
 
 ## freelance
 
