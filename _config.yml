@@ -19,6 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Kuiyonggen
+repository: kuiyonggen/kuiyonggen.github.io
+author: Kuiyonggen
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Let kids grow up in love!
