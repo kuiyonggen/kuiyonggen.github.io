@@ -102,28 +102,75 @@ permalink: /link/
 * [](){:target="_blank"}
 
 
+
+* [](){:target="_blank"}
+
+## vim
+
+
+* [Learning Vim and Vimscript doesn't have to be hard](https://github.com/iggredible/Learn-Vim){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 
 
-
-## javascript
+## frontend
 
 * [A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS){:target="_blank"}
+
+* [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="blank"}
 * [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+
+## rust
+
+
+* [The Rust Programming Language](https://github.com/rust-lang/book){:target="blank"}
+* [Create book from markdown files. Like Gitbook but implemented in Rust](https://github.com/rust-lang/mdBook){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+
 
 ## golang
 
-* [Golang conference PPT](https://github.com/gopherchina/conference){:target="_blank"}
+### orm
+
+* [An entity framework for Go - Simple, yet powerful ORM for modeling and querying data.](https://entgo.io/){:target="blank"}
+* [atlas is an open-source schema migration tool](https://atlasgo.io/){:target="blank"}
 * [](){:target="blank"}
 
+
+---
+
+* [Golang conference PPT](https://github.com/gopherchina/conference){:target="_blank"}
+
+* [Learn Go with test-driven development](https://github.com/quii/learn-go-with-tests){:target="blank"}
+
+* [List of Golang books](https://github.com/dariubs/GoBooks){:target="blank"}
+
+* [The source code for the book Test-driven development in Go](https://github.com/publysher/golang-tdd){:target="blank"}
+
+* [Test-driven development in Go](https://leanpub.com/golang-tdd){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
 
 ## ops
 
 * [DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP](https://github.com/bregman-arie/devops-resources){:target="_blank"}
 
 * [10x easier, rocket 140x lower storage cost, rocket high performance, rocket petabyte scale - Elasticsearch/Splunk/Datadog alternative for rocket (logs, metrics, traces){:target="_blank"}.](https://github.com/openobserve/openobserve){:target="_blank"}
-* [](){:target="blank"}
 
+* [ConsulManager](https://github.com/starsliao/ConsulManager){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
 ## ubuntu
 
 * [install windows app by deepin-wine](https://deepin-wine.i-m.dev/){:target="_blank"}
@@ -241,11 +288,21 @@ permalink: /link/
 * [](){:target="blank"}
 
 
-## ebook
+## e-book
+
 
 * [Gutenberg - You will find the world’s great literature here, with focus on older works for which U.S. copyright has expired. Thousands of volunteers digitized and diligently proofread the eBooks, for you to enjoy](https://www.gutenberg.org/){:target="_blank"}
 
 * [OceanofPDF](https://oceanofpdf.com/){:target="_blank"}
+
+* [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="blank"}
+
+* [Books everyone should read!](https://github.com/hackerkid/Mind-Expanding-Books){:target="blank"}
+
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
 * [](){:target="blank"}
 
 ## style

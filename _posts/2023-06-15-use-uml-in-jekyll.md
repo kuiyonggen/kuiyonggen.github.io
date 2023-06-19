@@ -238,3 +238,4 @@ Rel(SystemC, customerA, "Sends e-mails to")
 * [Permissions for the GITHUB_TOKEN](https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token){:target="_blank"}
 * [plantuml class diagram](https://plantuml.com/class-diagram){:target="_blank"}
 * [PlantUML GitHub action](https://github.com/marketplace/actions/plantuml-generator){:target="_blank"}
+* [link How to escape double curly braces in Jekyll](https://devcoops.com/escape-double-curly-braces-inside-a-markdown/){:target="blank"}
