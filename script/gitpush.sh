@@ -6,6 +6,9 @@ then
 else
     echo ${COMMENT}
 fi
+REPO_DIR=$(dirname $(dirname $(realpath  "$0")))
+cd ${REPO_DIR}
 git add .
 git commit -am "${COMMENT}"
 git push
+cd -
