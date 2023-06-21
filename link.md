@@ -23,8 +23,17 @@ permalink: /link/
 * [How to learn English A guide to learning English really well](https://www.antimoon.com/how/howtolearn.htm){:target="_blank"}
 
 * [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+
+## github
 
 
+* [GitHub REST API](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
 
 ## programmer
 
@@ -117,10 +126,12 @@ permalink: /link/
 
 ## frontend
 
+
+* [Universal, Type-Safe, CSS-in-JS Framework for Product Teams](https://github.com/chakra-ui/panda){:target="blank"}
+
 * [A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS){:target="_blank"}
 
 * [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="blank"}
-* [](){:target="blank"}
 * [](){:target="blank"}
 * [](){:target="blank"}
 * [](){:target="blank"}
@@ -128,11 +139,18 @@ permalink: /link/
 ## rust
 
 
+* [Build smaller, faster, and more secure desktop applications with a web frontend](https://github.com/tauri-apps/tauri){:target="blank"}
+
 * [The Rust Programming Language](https://github.com/rust-lang/book){:target="blank"}
 * [Create book from markdown files. Like Gitbook but implemented in Rust](https://github.com/rust-lang/mdBook){:target="blank"}
 * [](){:target="blank"}
 * [](){:target="blank"}
 
+## nodejs
+
+
+* [](){:target="blank"}
+* [](){:target="blank"}
 
 ## golang
 
@@ -179,6 +197,13 @@ permalink: /link/
 * [](){:target="blank"}
 
 
+## backup
+
+
+* [Self-hosted photo and video backup solution directly from your mobile phone](https://github.com/immich-app/immich){:target="blank"}
+* [immich-app docs](https://immich.app/docs/overview/introduction){:target="blank"}
+* [](){:target="blank"}
+
 ## jekyll
 
 * [How to add comments in blog posts on GitHub-pages websites](https://webapps.stackexchange.com/questions/165528/how-to-add-comments-in-blog-posts-on-github-pages-websites){:target="_blank"}
@@ -207,6 +232,19 @@ permalink: /link/
 * [Chrome-Extension: iterate through all tabs?](https://javascript.tutorialink.com/chrome-extension-iterate-through-all-tabs/){:target="_blank"}
 * [](){:target="blank"}
 
+## crawler
+
+
+* [A visual no-code/code-free web crawler](https://github.com/NaiboWang/EasySpider){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
 ## work flow
 
 * [A distributed hydrological modeling platform](https://github.com/openstreams/wflow){:target="_blank"}
@@ -223,6 +261,12 @@ permalink: /link/
 
 * [](){:target="blank"}
 
+## live
+
+
+* [live TV](https://github.com/fanmingming/live){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
 
 ## reader
 
