@@ -1,16 +1,23 @@
 ---
 layout: page
-title: Link
+title: 'Link'
 permalink: /link/
 ---
-# Link
 
 ## awesome
 
 
 * [A curated collection of diagramming tools used by leading software engineering teams](https://github.com/shubhamgrg04/awesome-diagramming){:target="_blank"}
 
-* [](){:target="blank"}
+* [Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome){:target="blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
 
 ## mind
 
@@ -112,6 +119,16 @@ permalink: /link/
 
 
 
+
+## shell
+
+### zsh
+
+* [Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...](https://ohmyz.sh/){:target="_blank"}
+
+* [A delightful community-driven (with 2,100+ contributors) framework for managing your zsh configuration.](https://github.com/ohmyzsh/ohmyzsh){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 
 ## vim
@@ -133,7 +150,25 @@ permalink: /link/
 
 * [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="blank"}
 * [](){:target="blank"}
-* [](){:target="blank"}
+
+## svelte
+
+
+* [SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte. If you're coming from React, SvelteKit is similar to Next. If you're coming from Vue, SvelteKit is similar to Nuxt.](https://kit.svelte.dev/docs/introduction){:target="_blank"}
+
+* [web development, streamlined](https://github.com/sveltejs/kit){:target="_blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
+
+
+## reactjs
+
+* [Build your React-based CRUD applications, without constraints. star2 Star to support our work!](https://github.com/refinedev/refine){:target="blank"}
+
 * [](){:target="blank"}
 
 ## rust
@@ -149,10 +184,20 @@ permalink: /link/
 ## nodejs
 
 
-* [](){:target="blank"}
+* [Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB](https://github.com/prisma/prisma){:target="blank"}
 * [](){:target="blank"}
 
 ## golang
+
+
+### tool
+
+
+* [Protect and discover secrets using Gitleaks](https://github.com/gitleaks/gitleaks){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
 
 ### orm
 
@@ -163,6 +208,38 @@ permalink: /link/
 
 ---
 
+### project
+
+
+* [Backend master class: build a simple bank service in Go](https://github.com/techschool/simplebank){:target="_blank"}
+* [Modern UI for Ansible](https://github.com/ansible-semaphore/semaphore){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+### all-in-one
+
+
+* [Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD](https://github.com/go-gitea/gitea){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+### autoscaler
+
+
+* [Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity.](https://github.com/aws/karpenter){:target="_blank"}
+* [KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes](https://github.com/kedacore/keda){:target="_blank"}
+* [](){:target="_blank"}
+
+### orchestration
+
+
+* [Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way.](https://github.com/uber/cadence){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+### book
+
 * [Golang conference PPT](https://github.com/gopherchina/conference){:target="_blank"}
 
 * [Learn Go with test-driven development](https://github.com/quii/learn-go-with-tests){:target="blank"}
@@ -170,6 +247,9 @@ permalink: /link/
 * [List of Golang books](https://github.com/dariubs/GoBooks){:target="blank"}
 
 * [The source code for the book Test-driven development in Go](https://github.com/publysher/golang-tdd){:target="blank"}
+
+
+### test
 
 * [Test-driven development in Go](https://leanpub.com/golang-tdd){:target="blank"}
 
@@ -208,7 +288,7 @@ permalink: /link/
 
 * [How to add comments in blog posts on GitHub-pages websites](https://webapps.stackexchange.com/questions/165528/how-to-add-comments-in-blog-posts-on-github-pages-websites){:target="_blank"}
 * [utteranc.es install](https://utteranc.es/?installation_id=38663828&setup_action=install){:target="_blank"}
-* [](){:target="_blank"}
+* [A GitHub Pages compatible Table of Contents generator without a plugin or JavaScript](https://github.com/allejo/jekyll-toc){:target="_blank"}
 
 * [ jekyll-spaceship - A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc.](https://github.com/jeffreytse/jekyll-spaceship){:target="_blank"}
 
@@ -217,7 +297,14 @@ permalink: /link/
 * [How to Add Comments to a Jekyll Blog](https://www.aleksandrhovhannisyan.com/blog/jekyll-comment-system-github-issues/){:target="_blank"}
 
 * [A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)](https://github.com/planetjekyll/awesome-jekyll-plugins){:target="_blank"}
-* [](){:target="blank"}
+
+* [A GitHub Pages compatible Table of Contents generator without a plugin or JavaScript](https://github.com/allejo/jekyll-toc){:target="blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
 
 ## app
 
@@ -376,8 +463,13 @@ permalink: /link/
 
 * [Interact privately with your documents using the power of GPT, 100% privately, no data leaks](https://github.com/imartinez/privateGPT){:target="blank"}
 
-* [](){:target="blank"}
+* [A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs](https://github.com/a16z-infra/ai-getting-started){:target="blank"}
 
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 
 ## freelance
