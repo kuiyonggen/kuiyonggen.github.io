@@ -39,3 +39,6 @@ gem 'jemoji'
 group :jekyll_plugins do
   gem 'jekyll-spaceship'
 end
+
+gem 'kramdown'
+gem 'rouge'

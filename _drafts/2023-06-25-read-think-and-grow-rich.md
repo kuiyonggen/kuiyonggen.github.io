@@ -11,4 +11,4 @@ I'm reading the book [Think And Grow](http://www.epubbud.com/epubs/M/R/MRLNA82D/
 
 > By applying the Master Mind principle, a few people with suitable talent, could form an alliance, and have a paying business very quickly. One would need to be a fair writer, with a flair for advertising and selling, one handy at typing and hand lettering, and one should be a first class business getter who would let the world know about the service. If one person possessed all these abilities, he might carry on the business alone, until it outgrew him.
 
-
+> If the first plan which you adopt does not work successfully, replace it with a new plan, if this new plan fails to work, replace it, in turn with still another, and so on, until you find a plan which DOES WORK. Right here is the point at which the majority of men meet with failure, because of their lack of PERSISTENCE in creating new plans to take the place of those which fail.

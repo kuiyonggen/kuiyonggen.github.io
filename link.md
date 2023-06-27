@@ -19,6 +19,25 @@ permalink: /link/
 
 * [](){:target="_blank"}
 
+## news
+
+
+* [LWN.net is a reader-supported news site dedicated to producing the best coverage from within the Linux and free software development communities.](https://lwn.net/){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+
 ## mind
 
 * [Understanding the Monkey Mind & How to Live in Harmony with Your Mental Companion](https://www.pocketmindfulness.com/understanding-monkey-mind-live-harmony-mental-companion/){:target="_blank"}
@@ -38,8 +57,11 @@ permalink: /link/
 
 
 * [GitHub REST API](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28){:target="blank"}
+
+* [Help beginners to contribute to open source projects](https://github.com/firstcontributions/first-contributions){:target="blank"}
+
 * [](){:target="blank"}
-* [](){:target="blank"}
+
 * [](){:target="blank"}
 
 ## programmer
@@ -151,7 +173,18 @@ permalink: /link/
 * [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="blank"}
 * [](){:target="blank"}
 
-## svelte
+
+### next.js
+
+
+* [An open source e-commerce skateshop build with everything new in Next.js 13.](https://github.com/sadmann7/skateshop){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+
+
+### svelte
 
 
 * [SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte. If you're coming from React, SvelteKit is similar to Next. If you're coming from Vue, SvelteKit is similar to Nuxt.](https://kit.svelte.dev/docs/introduction){:target="_blank"}
@@ -165,7 +198,7 @@ permalink: /link/
 * [](){:target="_blank"}
 
 
-## reactjs
+### reactjs
 
 * [Build your React-based CRUD applications, without constraints. star2 Star to support our work!](https://github.com/refinedev/refine){:target="blank"}
 
@@ -178,13 +211,29 @@ permalink: /link/
 
 * [The Rust Programming Language](https://github.com/rust-lang/book){:target="blank"}
 * [Create book from markdown files. Like Gitbook but implemented in Rust](https://github.com/rust-lang/mdBook){:target="blank"}
+
+* [Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.](https://github.com/spacedriveapp/spacedrive){:target="blank"}
+
+* [](){:target="blank"}
+
+
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
 * [](){:target="blank"}
 * [](){:target="blank"}
 
 ## nodejs
 
 
-* [Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB](https://github.com/prisma/prisma){:target="blank"}
+* [Next-generation ORM for Node.js & TypeScript: PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB](https://github.com/prisma/prisma){:target="blank"}
 * [](){:target="blank"}
 
 ## golang
@@ -195,7 +244,10 @@ permalink: /link/
 
 * [Protect and discover secrets using Gitleaks](https://github.com/gitleaks/gitleaks){:target="_blank"}
 * [](){:target="_blank"}
-* [](){:target="_blank"}
+
+### database
+
+* [JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.](https://github.com/paypal/junodb){:target="_blank"}
 * [](){:target="_blank"}
 
 
@@ -286,6 +338,7 @@ permalink: /link/
 
 ## jekyll
 
+
 * [How to add comments in blog posts on GitHub-pages websites](https://webapps.stackexchange.com/questions/165528/how-to-add-comments-in-blog-posts-on-github-pages-websites){:target="_blank"}
 * [utteranc.es install](https://utteranc.es/?installation_id=38663828&setup_action=install){:target="_blank"}
 * [A GitHub Pages compatible Table of Contents generator without a plugin or JavaScript](https://github.com/allejo/jekyll-toc){:target="_blank"}
@@ -300,9 +353,9 @@ permalink: /link/
 
 * [A GitHub Pages compatible Table of Contents generator without a plugin or JavaScript](https://github.com/allejo/jekyll-toc){:target="blank"}
 
-* [](){:target="_blank"}
+* [Syntax highlighting in Jekyll](https://uhded.com/jekyll-syntax-highlighting){:target="_blank"}
 
-* [](){:target="_blank"}
+* [List of supported languages and lexers](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers){:target="_blank"}
 
 * [](){:target="_blank"}
 
@@ -317,6 +370,19 @@ permalink: /link/
 * [How to Create Your Own Google Chrome Extension](https://www.freecodecamp.org/news/building-chrome-extension/){:target="_blank"}
 
 * [Chrome-Extension: iterate through all tabs?](https://javascript.tutorialink.com/chrome-extension-iterate-through-all-tabs/){:target="_blank"}
+
+* [A browser extension for automating your browser by connecting blocks](https://github.com/AutomaApp/automa){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
 * [](){:target="blank"}
 
 ## crawler
@@ -345,6 +411,24 @@ permalink: /link/
 
 * [YimMenu, a GTA V menu oriented at protecting from crashes (not all currently) and improving the overall experience](https://github.com/YimMenu/YimMenu){:target="blank"}
 
+
+* [PCSX2 - The Playstation 2 Emulator](https://github.com/PCSX2/pcsx2){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
 
 * [](){:target="blank"}
 
@@ -386,6 +470,15 @@ permalink: /link/
 ## database
 
 * [Next-Gen ERD: Design, Explore, Document and Analyze your database](https://github.com/azimuttapp/azimutt){:target="_blank"}
+
+
+### postgresql
+
+* [A weekly email roundup of Postgres news and articles](https://postgresweekly.com/){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
 * [](){:target="blank"}
 
 ## library
@@ -458,6 +551,23 @@ permalink: /link/
 
 
 * [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+
+## dict
+
+
+* [A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.](https://github.com/goldendict/goldendict){:target="blank"}
+
+* [software/GoldenDict/dictionary/Merriam-Webster's Collegiate Dictionary 11th Edtion.mdx](https://github.com/syscl/LinuxLand/blob/master/software/GoldenDict/dictionary/Merriam-Webster's%20Collegiate%20Dictionary%2011th%20Edtion.mdx){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
 
 ## ai
 
@@ -471,6 +581,56 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
+### LLM
+
+
+* [Framework to easily create LLM powered bots over any dataset.](https://github.com/embedchain/embedchain){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+
+## autonomous driving
+
+
+* [[CVPR 2023 Best Paper] Planning-oriented Autonomous Driving](https://github.com/OpenDriveLab/UniAD){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+
+
+## paper
+
+
+* [Papers from the computer science community to read and discuss.](https://github.com/papers-we-love/papers-we-love){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+* [](){:target="blank"}
+
+
 
 ## freelance
 
@@ -478,3 +638,5 @@ permalink: /link/
 
 
 * [](){:target="blank"}
+
+
