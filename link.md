@@ -144,6 +144,18 @@ permalink: /link/
 
 ## shell
 
+### sed
+
+
+* [Linux: sed to replace across multiple files in directory](https://fabianlee.org/2022/10/22/linux-sed-to-replace-across-multiple-files-in-directory/){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+
 ### zsh
 
 * [Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...](https://ohmyz.sh/){:target="_blank"}
@@ -202,6 +214,12 @@ permalink: /link/
 
 * [Build your React-based CRUD applications, without constraints. star2 Star to support our work!](https://github.com/refinedev/refine){:target="blank"}
 
+* [OpenResume is a powerful open-source resume builder and resume parser.](https://github.com/xitanggg/open-resume){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
 * [](){:target="blank"}
 
 ## rust
@@ -255,8 +273,13 @@ permalink: /link/
 
 * [An entity framework for Go - Simple, yet powerful ORM for modeling and querying data.](https://entgo.io/){:target="blank"}
 * [atlas is an open-source schema migration tool](https://atlasgo.io/){:target="blank"}
-* [](){:target="blank"}
 
+* [gorm-The fantastic ORM library for Golang, aims to be developer friendly](https://github.com/go-gorm/gorm){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
+* [](){:target="blank"}
 
 ---
 
@@ -475,8 +498,8 @@ permalink: /link/
 ### postgresql
 
 * [A weekly email roundup of Postgres news and articles](https://postgresweekly.com/){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [The installation of PostgreSQL using the source code distribution](https://www.postgresql.org/docs/current/installation.html){:target="blank"}
+* [postgresql psql commands](https://www.geeksforgeeks.org/postgresql-psql-commands/){:target="blank"}
 * [](){:target="blank"}
 * [](){:target="blank"}
 * [](){:target="blank"}
