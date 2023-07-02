@@ -9,7 +9,7 @@ permalink: /link/
 
 * [A curated collection of diagramming tools used by leading software engineering teams](https://github.com/shubhamgrg04/awesome-diagramming){:target="_blank"}
 
-* [Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome){:target="blank"}
+* [Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome){:target="_blank"}
 
 * [](){:target="_blank"}
 
@@ -22,47 +22,59 @@ permalink: /link/
 ## news
 
 
-* [LWN.net is a reader-supported news site dedicated to producing the best coverage from within the Linux and free software development communities.](https://lwn.net/){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [LWN.net is a reader-supported news site dedicated to producing the best coverage from within the Linux and free software development communities.](https://lwn.net/){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## mind
 
 * [Understanding the Monkey Mind & How to Live in Harmony with Your Mental Companion](https://www.pocketmindfulness.com/understanding-monkey-mind-live-harmony-mental-companion/){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## howto
 
 * [How to learn English A guide to learning English really well](https://www.antimoon.com/how/howtolearn.htm){:target="_blank"}
 
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## github
 
 
-* [GitHub REST API](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28){:target="blank"}
+* [GitHub REST API](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28){:target="_blank"}
 
-* [Help beginners to contribute to open source projects](https://github.com/firstcontributions/first-contributions){:target="blank"}
+* [Help beginners to contribute to open source projects](https://github.com/firstcontributions/first-contributions){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+## self-taught
+
+* [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science){:target="_blank"}
+
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## programmer
 
@@ -79,41 +91,41 @@ permalink: /link/
 * [Learning Vim: What I Wish I Knew](https://hackernoon.com/learning-vim-what-i-wish-i-knew-b5dca186bef7){:target="_blank"}
 
 
-* [CNET - Your guide to a better future! An excellent source of up-to-date tech news.](https://www.cnet.com/news/){:target="blank"}
+* [CNET - Your guide to a better future! An excellent source of up-to-date tech news.](https://www.cnet.com/news/){:target="_blank"}
 
-* [High Scalability - Success stories of various companies on their apps, infra scaling](http://highscalability.com/){:target="blank"}
-
-
-* [Hackaday : Hacking is an art form that uses something in a way in which it was not originally intended](https://hackaday.com/){:target="blank"}
+* [High Scalability - Success stories of various companies on their apps, infra scaling](http://highscalability.com/){:target="_blank"}
 
 
-* [MIT's tech review magazine](https://www.technologyreview.com/magazines/the-education-issue/){:target="blank"}
+* [Hackaday : Hacking is an art form that uses something in a way in which it was not originally intended](https://hackaday.com/){:target="_blank"}
 
 
-* [NewYorker for tech](https://nautil.us/){:target="blank"}
-
-* [Weekly news coverage of opensource technologies, programming, etc. ( Originally Linux Weekly News)](https://lwn.net/){:target="blank"}
+* [MIT's tech review magazine](https://www.technologyreview.com/magazines/the-education-issue/){:target="_blank"}
 
 
-* [Learn Web3 DAO: Learn to become a Web3 Developer for free](https://learnweb3.io/){:target="blank"}
+* [NewYorker for tech](https://nautil.us/){:target="_blank"}
+
+* [Weekly news coverage of opensource technologies, programming, etc. ( Originally Linux Weekly News)](https://lwn.net/){:target="_blank"}
 
 
-* [An Ordered and Curated Reading List for Software Craftsmanship Growth](https://www.programmingbooks.dev/){:target="blank"}
+* [Learn Web3 DAO: Learn to become a Web3 Developer for free](https://learnweb3.io/){:target="_blank"}
 
 
-* [Tutorials, tips & tricks, and rants about programming and design](https://www.amitmerchant.com/){:target="blank"}
+* [An Ordered and Curated Reading List for Software Craftsmanship Growth](https://www.programmingbooks.dev/){:target="_blank"}
 
-* [blog on Python and open source](https://lucumr.pocoo.org/){:target="blank"}
 
-* [Brendan Gregg's Homepage](https://www.brendangregg.com/){:target="blank"}
+* [Tutorials, tips & tricks, and rants about programming and design](https://www.amitmerchant.com/){:target="_blank"}
 
-* [a blog of the author of the book "Clean Code"](http://blog.cleancoder.com/){:target="blank"}
+* [blog on Python and open source](https://lucumr.pocoo.org/){:target="_blank"}
 
-* [Blog on software and human factors. 100% Tested on Humans](https://codeahoy.com/){:target="blank"}
+* [Brendan Gregg's Homepage](https://www.brendangregg.com/){:target="_blank"}
 
-* [about building websites and all that entails, mostly from a front-end perspective](https://css-tricks.com/){:target="blank"}
+* [a blog of the author of the book "Clean Code"](http://blog.cleancoder.com/){:target="_blank"}
 
-* [Dan Dreams of Coding](https://dandreamsofcoding.com/){:target="blank"}
+* [Blog on software and human factors. 100% Tested on Humans](https://codeahoy.com/){:target="_blank"}
+
+* [about building websites and all that entails, mostly from a front-end perspective](https://css-tricks.com/){:target="_blank"}
+
+* [Dan Dreams of Coding](https://dandreamsofcoding.com/){:target="_blank"}
 
 
 * [Daniel Lemire's blog](https://lemire.me/blog/){:target="_blank"}
@@ -147,14 +159,14 @@ permalink: /link/
 ### sed
 
 
-* [Linux: sed to replace across multiple files in directory](https://fabianlee.org/2022/10/22/linux-sed-to-replace-across-multiple-files-in-directory/){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [Linux: sed to replace across multiple files in directory](https://fabianlee.org/2022/10/22/linux-sed-to-replace-across-multiple-files-in-directory/){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ### zsh
 
@@ -172,28 +184,35 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
+
+## serverless
+
+
+* [SST makes it easy to build full-stack serverless apps.](https://github.com/serverless-stack/ssthttps://github.com/serverless-stack/sst){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 
 
 ## frontend
 
-
-* [Universal, Type-Safe, CSS-in-JS Framework for Product Teams](https://github.com/chakra-ui/panda){:target="blank"}
+* [Universal, Type-Safe, CSS-in-JS Framework for Product Teams](https://github.com/chakra-ui/panda){:target="_blank"}
 
 * [A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS){:target="_blank"}
 
-* [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="blank"}
-* [](){:target="blank"}
+* [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="_blank"}
+* [](){:target="_blank"}
 
 
 ### next.js
 
 
-* [An open source e-commerce skateshop build with everything new in Next.js 13.](https://github.com/sadmann7/skateshop){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [An open source e-commerce skateshop build with everything new in Next.js 13.](https://github.com/sadmann7/skateshop){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 
 ### svelte
@@ -212,50 +231,56 @@ permalink: /link/
 
 ### reactjs
 
-* [Build your React-based CRUD applications, without constraints. star2 Star to support our work!](https://github.com/refinedev/refine){:target="blank"}
+* [Build your React-based CRUD applications, without constraints. star2 Star to support our work!](https://github.com/refinedev/refine){:target="_blank"}
 
-* [OpenResume is a powerful open-source resume builder and resume parser.](https://github.com/xitanggg/open-resume){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [OpenResume is a powerful open-source resume builder and resume parser.](https://github.com/xitanggg/open-resume){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## rust
 
 
-* [Build smaller, faster, and more secure desktop applications with a web frontend](https://github.com/tauri-apps/tauri){:target="blank"}
+* [Build smaller, faster, and more secure desktop applications with a web frontend](https://github.com/tauri-apps/tauri){:target="_blank"}
 
-* [The Rust Programming Language](https://github.com/rust-lang/book){:target="blank"}
-* [Create book from markdown files. Like Gitbook but implemented in Rust](https://github.com/rust-lang/mdBook){:target="blank"}
+* [The Rust Programming Language](https://github.com/rust-lang/book){:target="_blank"}
+* [Create book from markdown files. Like Gitbook but implemented in Rust](https://github.com/rust-lang/mdBook){:target="_blank"}
 
-* [Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.](https://github.com/spacedriveapp/spacedrive){:target="blank"}
+* [Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.](https://github.com/spacedriveapp/spacedrive){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## nodejs
 
 
-* [Next-generation ORM for Node.js & TypeScript: PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB](https://github.com/prisma/prisma){:target="blank"}
-* [](){:target="blank"}
+* [Next-generation ORM for Node.js & TypeScript: PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB](https://github.com/prisma/prisma){:target="_blank"}
+* [](){:target="_blank"}
 
 ## golang
 
+### gateway
+
+
+* [An open framework to assemble ultra performance API Gateways with middlewares; formerly known as KrakenD framework, and core service of the KrakenD API Gateway.](https://github.com/luraproject/lura){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ### tool
 
@@ -271,15 +296,15 @@ permalink: /link/
 
 ### orm
 
-* [An entity framework for Go - Simple, yet powerful ORM for modeling and querying data.](https://entgo.io/){:target="blank"}
-* [atlas is an open-source schema migration tool](https://atlasgo.io/){:target="blank"}
+* [An entity framework for Go - Simple, yet powerful ORM for modeling and querying data.](https://entgo.io/){:target="_blank"}
+* [atlas is an open-source schema migration tool](https://atlasgo.io/){:target="_blank"}
 
-* [gorm-The fantastic ORM library for Golang, aims to be developer friendly](https://github.com/go-gorm/gorm){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [gorm-The fantastic ORM library for Golang, aims to be developer friendly](https://github.com/go-gorm/gorm){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ---
 
@@ -288,6 +313,12 @@ permalink: /link/
 
 * [Backend master class: build a simple bank service in Go](https://github.com/techschool/simplebank){:target="_blank"}
 * [Modern UI for Ansible](https://github.com/ansible-semaphore/semaphore){:target="_blank"}
+* [Master programming by recreating your favorite technologies from scratch.](https://github.com/codecrafters-io/build-your-own-x){:target="_blank"}
+* [A list of Free Software network services and web applications which can be hosted on your own servers](https://github.com/awesome-selfhosted/awesome-selfhosted){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
@@ -317,47 +348,52 @@ permalink: /link/
 
 * [Golang conference PPT](https://github.com/gopherchina/conference){:target="_blank"}
 
-* [Learn Go with test-driven development](https://github.com/quii/learn-go-with-tests){:target="blank"}
+* [Learn Go with test-driven development](https://github.com/quii/learn-go-with-tests){:target="_blank"}
 
-* [List of Golang books](https://github.com/dariubs/GoBooks){:target="blank"}
+* [List of Golang books](https://github.com/dariubs/GoBooks){:target="_blank"}
 
-* [The source code for the book Test-driven development in Go](https://github.com/publysher/golang-tdd){:target="blank"}
+* [The source code for the book Test-driven development in Go](https://github.com/publysher/golang-tdd){:target="_blank"}
 
 
 ### test
 
-* [Test-driven development in Go](https://leanpub.com/golang-tdd){:target="blank"}
+* [Test-driven development in Go](https://leanpub.com/golang-tdd){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## ops
 
 * [DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP](https://github.com/bregman-arie/devops-resources){:target="_blank"}
 
-* [10x easier, rocket 140x lower storage cost, rocket high performance, rocket petabyte scale - Elasticsearch/Splunk/Datadog alternative for rocket (logs, metrics, traces){:target="_blank"}.](https://github.com/openobserve/openobserve){:target="_blank"}
+* [10x easier, rocket 140x lower storage cost, rocket high performance, rocket petabyte scale - Elasticsearch/Splunk/Datadog alternative for rocket (logs, metrics, traces)](https://github.com/openobserve/openobserve){:target="_blank"}
 
-* [ConsulManager](https://github.com/starsliao/ConsulManager){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [ConsulManager](https://github.com/starsliao/ConsulManager){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 ## ubuntu
 
 * [install windows app by deepin-wine](https://deepin-wine.i-m.dev/){:target="_blank"}
 
 * [deepin source migration to debian/ubuntu](https://github.com/zq1997/deepin-wine){:target="_blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 
 ## backup
 
 
-* [Self-hosted photo and video backup solution directly from your mobile phone](https://github.com/immich-app/immich){:target="blank"}
-* [immich-app docs](https://immich.app/docs/overview/introduction){:target="blank"}
-* [](){:target="blank"}
+* [Self-hosted photo and video backup solution directly from your mobile phone](https://github.com/immich-app/immich){:target="_blank"}
+* [immich-app docs](https://immich.app/docs/overview/introduction){:target="_blank"}
+
+* [Open Source Continuous File Synchronization](https://github.com/syncthing/syncthing){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## jekyll
 
@@ -374,7 +410,7 @@ permalink: /link/
 
 * [A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)](https://github.com/planetjekyll/awesome-jekyll-plugins){:target="_blank"}
 
-* [A GitHub Pages compatible Table of Contents generator without a plugin or JavaScript](https://github.com/allejo/jekyll-toc){:target="blank"}
+* [A GitHub Pages compatible Table of Contents generator without a plugin or JavaScript](https://github.com/allejo/jekyll-toc){:target="_blank"}
 
 * [Syntax highlighting in Jekyll](https://uhded.com/jekyll-syntax-highlighting){:target="_blank"}
 
@@ -385,7 +421,11 @@ permalink: /link/
 ## app
 
 * [High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app](https://github.com/knadh/listmonk){:target="_blank"}
-* [](){:target="blank"}
+
+* [vlc android](https://get.videolan.org/vlc-android/3.5.4/){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 
 ## chrome
@@ -394,32 +434,32 @@ permalink: /link/
 
 * [Chrome-Extension: iterate through all tabs?](https://javascript.tutorialink.com/chrome-extension-iterate-through-all-tabs/){:target="_blank"}
 
-* [A browser extension for automating your browser by connecting blocks](https://github.com/AutomaApp/automa){:target="blank"}
+* [A browser extension for automating your browser by connecting blocks](https://github.com/AutomaApp/automa){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## crawler
 
 
-* [A visual no-code/code-free web crawler](https://github.com/NaiboWang/EasySpider){:target="blank"}
+* [A visual no-code/code-free web crawler](https://github.com/NaiboWang/EasySpider){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## work flow
 
@@ -427,50 +467,50 @@ permalink: /link/
 
 * [wflow](https://github.com/willianfu/wflow){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## game
 
 
-* [YimMenu, a GTA V menu oriented at protecting from crashes (not all currently) and improving the overall experience](https://github.com/YimMenu/YimMenu){:target="blank"}
+* [YimMenu, a GTA V menu oriented at protecting from crashes (not all currently) and improving the overall experience](https://github.com/YimMenu/YimMenu){:target="_blank"}
 
 
-* [PCSX2 - The Playstation 2 Emulator](https://github.com/PCSX2/pcsx2){:target="blank"}
+* [PCSX2 - The Playstation 2 Emulator](https://github.com/PCSX2/pcsx2){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## live
 
 
-* [live TV](https://github.com/fanmingming/live){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [live TV](https://github.com/fanmingming/live){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## reader
 
 * [A simple and modern GTK e-book reader](https://github.com/johnfactotum/foliate){:target="_blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## svc
 
 * [SoftVC VITS Singing Voice Conversion](https://github.com/svc-develop-team/so-vits-svc){:target="_blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## uml
 
@@ -488,7 +528,7 @@ permalink: /link/
 
 * [nomnoml - The sassy UML diagram renderer](https://github.com/skanaar/nomnoml){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## database
 
@@ -497,23 +537,23 @@ permalink: /link/
 
 ### postgresql
 
-* [A weekly email roundup of Postgres news and articles](https://postgresweekly.com/){:target="blank"}
-* [The installation of PostgreSQL using the source code distribution](https://www.postgresql.org/docs/current/installation.html){:target="blank"}
-* [postgresql psql commands](https://www.geeksforgeeks.org/postgresql-psql-commands/){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [A weekly email roundup of Postgres news and articles](https://postgresweekly.com/){:target="_blank"}
+* [The installation of PostgreSQL using the source code distribution](https://www.postgresql.org/docs/current/installation.html){:target="_blank"}
+* [postgresql psql commands](https://www.geeksforgeeks.org/postgresql-psql-commands/){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## library
 
 * [Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.](https://github.com/facebookresearch/audiocraft){:target="_blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 
 ## markdown
 
 * [markdown-emojis - All the emojis](https://github.com/markdown-templates/markdown-emojis){:target="_blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## srs
 
@@ -532,7 +572,7 @@ permalink: /link/
 
 * [Applications of SRS-MP2](https://github.com/sykstan/srs-app){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 
 ## e-book
@@ -542,15 +582,15 @@ permalink: /link/
 
 * [OceanofPDF](https://oceanofpdf.com/){:target="_blank"}
 
-* [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="blank"}
+* [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="_blank"}
 
-* [Books everyone should read!](https://github.com/hackerkid/Mind-Expanding-Books){:target="blank"}
+* [Books everyone should read!](https://github.com/hackerkid/Mind-Expanding-Books){:target="_blank"}
 
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## style
 
@@ -573,30 +613,29 @@ permalink: /link/
 * [Chinese Style Guide, a set of standards for writing and formatting articles in Chinese language and Chinese-English mixed content](https://github.com/RightCapitalHQ/chinese-style-guide){:target="_blank"}
 
 
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## dict
 
+* [A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.](https://github.com/goldendict/goldendict){:target="_blank"}
 
-* [A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.](https://github.com/goldendict/goldendict){:target="blank"}
+* [software/GoldenDict/dictionary/Merriam-Webster's Collegiate Dictionary 11th Edtion.mdx](https://github.com/syscl/LinuxLand/blob/master/software/GoldenDict/dictionary/Merriam-Webster's%20Collegiate%20Dictionary%2011th%20Edtion.mdx){:target="_blank"}
 
-* [software/GoldenDict/dictionary/Merriam-Webster's Collegiate Dictionary 11th Edtion.mdx](https://github.com/syscl/LinuxLand/blob/master/software/GoldenDict/dictionary/Merriam-Webster's%20Collegiate%20Dictionary%2011th%20Edtion.mdx){:target="blank"}
+* [Merriam-Webster: America's Most Trusted Dictionary](https://www.merriam-webster.com/){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
-
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 ## ai
 
-* [Interact privately with your documents using the power of GPT, 100% privately, no data leaks](https://github.com/imartinez/privateGPT){:target="blank"}
+* [Interact privately with your documents using the power of GPT, 100% privately, no data leaks](https://github.com/imartinez/privateGPT){:target="_blank"}
 
-* [A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs](https://github.com/a16z-infra/ai-getting-started){:target="blank"}
+* [A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs](https://github.com/a16z-infra/ai-getting-started){:target="_blank"}
 
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -607,50 +646,54 @@ permalink: /link/
 ### LLM
 
 
-* [Framework to easily create LLM powered bots over any dataset.](https://github.com/embedchain/embedchain){:target="blank"}
+* [Framework to easily create LLM powered bots over any dataset.](https://github.com/embedchain/embedchain){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 
 ## autonomous driving
 
 
-* [[CVPR 2023 Best Paper] Planning-oriented Autonomous Driving](https://github.com/OpenDriveLab/UniAD){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
-* [](){:target="blank"}
+* [[CVPR 2023 Best Paper] Planning-oriented Autonomous Driving](https://github.com/OpenDriveLab/UniAD){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 
 ## paper
 
 
-* [Papers from the computer science community to read and discuss.](https://github.com/papers-we-love/papers-we-love){:target="blank"}
+* [Papers from the computer science community to read and discuss.](https://github.com/papers-we-love/papers-we-love){:target="_blank"}
 
-* [](){:target="blank"}
+* [This repository is a curated collection of the most exciting and influential CVPR 2023 papers.](https://github.com/SkalskiP/top-cvpr-2023-papers){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
+<<<<<<< Updated upstream
+=======
+* [](){:target="_blank"}
+>>>>>>> Stashed changes
 
 
 
@@ -659,7 +702,7 @@ permalink: /link/
 * [Codementer](https://www.codementor.io/){:target="_blank"}
 
 
-* [](){:target="blank"}
+* [](){:target="_blank"}
 
 
 ## English
