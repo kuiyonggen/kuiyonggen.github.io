@@ -275,6 +275,15 @@ permalink: /link/
 
 ## golang
 
+### blog
+
+
+* [Sonic is a blogging platform developed by Go. Simple and powerful](https://github.com/go-sonic/sonic){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
 ### gateway
 
 
@@ -361,11 +370,25 @@ permalink: /link/
 
 * [](){:target="_blank"}
 
-* [](){:target="_blank"}
 
 * [](){:target="_blank"}
 
 ## ops
+
+### ansible
+
+* [Ansible for DevOps examples.](https://github.com/geerlingguy/ansible-for-devops){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+
+### basic
 
 * [DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP](https://github.com/bregman-arie/devops-resources){:target="_blank"}
 
@@ -397,6 +420,11 @@ permalink: /link/
 
 ## jekyll
 
+### category
+
+* [Creating Category Pages in Jekyll without Plugins](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins){:target="blank"}
+
+### basic
 
 * [How to add comments in blog posts on GitHub-pages websites](https://webapps.stackexchange.com/questions/165528/how-to-add-comments-in-blog-posts-on-github-pages-websites){:target="_blank"}
 * [utteranc.es install](https://utteranc.es/?installation_id=38663828&setup_action=install){:target="_blank"}
@@ -690,11 +718,7 @@ permalink: /link/
 
 * [](){:target="_blank"}
 
-<<<<<<< Updated upstream
-=======
 * [](){:target="_blank"}
->>>>>>> Stashed changes
-
 
 
 ## freelance

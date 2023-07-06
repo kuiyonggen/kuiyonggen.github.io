@@ -6,7 +6,7 @@ then
 else
     echo ${COMMENT}
 fi
-REPO_DIR=$(dirname $(dirname $(dirname $(realpath  "$0"))))
+REPO_DIR=$(dirname $(dirname $(dirname $(dirname $(realpath  "$0")))))
 cd ${REPO_DIR}
 git add .
 git commit -am "${COMMENT}"

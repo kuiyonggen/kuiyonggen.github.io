@@ -51,6 +51,9 @@ jobs:
       - name: Checking Jekyll configuration
         run: bundle exec jekyll doctor
 
+      - name: Copy block to assets
+        run: cp -rf _includes/block assets/ 
+
       - name: Build with Jekyll
         # Defaults output to '/_site'
         run: bundle exec jekyll build --baseurl '' --profile --trace

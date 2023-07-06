@@ -2,8 +2,8 @@
 layout: post
 title: "Convert WMV To MP4"
 categories: shell
-include_file: txt/include.md
-script_file: script/convertmp4.sh
+include_file: block/txt/include.md
+script_file: block/script/convertmp4.sh
 ---
 I wanted to convert all my wmv files into mp4 files at one click. So I wrote a shell script to run it. 
 
