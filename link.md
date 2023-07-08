@@ -284,10 +284,46 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
+### image
+
+
+* [An image resizing server written in Go](https://github.com/thoas/picfit){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+### library
+
+
+* [A Commander for modern Go CLI interactions](https://github.com/spf13/cobra){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+### server
+
+
+* [A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)](https://github.com/gotify/server){:target="_blank"}
+* [The front-end and back-end separation authority management system based on Gin + Vue + Element UI OR Arco Design is extremely simple to initialize the system. ](https://github.com/go-admin-team/go-admin){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
 ### gateway
 
 
+* [lura docs](https://luraproject.org/docs/){:target="_blank"}
 * [An open framework to assemble ultra performance API Gateways with middlewares; formerly known as KrakenD framework, and core service of the KrakenD API Gateway.](https://github.com/luraproject/lura){:target="_blank"}
+* [KrakenD Community Documentation](https://www.krakend.io/docs/overview/){:target="_blank"}
+* [High-performance, stateless, declarative, API Gateway written in Go.](https://github.com/krakendio/krakend-ce){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
@@ -375,6 +411,17 @@ permalink: /link/
 
 ## ops
 
+### cicd
+
+
+* [Enterprise-Grade Continuous Delivery & DevOps Automation Open Source Platform](https://github.com/ovh/cds){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
 ### ansible
 
 * [Ansible for DevOps examples.](https://github.com/geerlingguy/ansible-for-devops){:target="_blank"}
@@ -382,7 +429,10 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
-* [](){:target="_blank"}
+
+### monitor
+
+* [1panel](https://github.com/1Panel-dev/1Panel){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -557,10 +607,17 @@ permalink: /link/
 * [nomnoml - The sassy UML diagram renderer](https://github.com/skanaar/nomnoml){:target="_blank"}
 
 * [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## database
 
 * [Next-Gen ERD: Design, Explore, Document and Analyze your database](https://github.com/azimuttapp/azimutt){:target="_blank"}
+* [A modern replacement for Redis and Memcached](https://github.com/dragonflydb/dragonfly){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 
 ### postgresql
@@ -582,6 +639,7 @@ permalink: /link/
 
 * [markdown-emojis - All the emojis](https://github.com/markdown-templates/markdown-emojis){:target="_blank"}
 * [](){:target="_blank"}
+
 
 ## srs
 
@@ -616,7 +674,10 @@ permalink: /link/
 
 * [](){:target="_blank"}
 * [](){:target="_blank"}
-* [](){:target="_blank"}
+
+## knowledgebase
+
+* [There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.](https://github.com/toeverything/AFFiNE){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
