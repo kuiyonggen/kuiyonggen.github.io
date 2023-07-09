@@ -9,7 +9,6 @@ I wanted to convert all my wmv files into mp4 files at one click. So I wrote a s
 
 ## script
 
-{% include {{ page.include_file }} %}
 
 ```shell
 {% include {{ page.script_file }} %}
@@ -28,6 +27,10 @@ $ ls | xargs /<repo_path>/_include/script/convertmp4.sh
 
 * Make most of cpu to run with multiple processes.
 
+
 ## references
 
 * [Jekyll - DOCS - Includes](https://jekyllrb.com/docs/includes/){:target="_blank"}
+
+
+{% include {{ page.include_file }} %}
