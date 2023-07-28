@@ -74,6 +74,17 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
+
+## lifestyle
+
+### coffee
+
+
+* [A COMPLETE GUIDE FOR SUSTAINABLE COFFEE WASTE RECYCLING](https://bleedgreenfoundation.com/coffee-waste-management/){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 
 ## programmer

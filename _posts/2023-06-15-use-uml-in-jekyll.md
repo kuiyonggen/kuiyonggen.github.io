@@ -3,6 +3,13 @@ layout: post
 title: "Use UML in Jekyll"
 categories: tech
 ---
+**Update 3.**
+I return the method specified by the post [How to use mermaid in Jekyll without plugin](http://blog.lindenliu.com/2020/01/07/use-mermaid-jekyll.html).
+
+And another post [Embed Mermaid in Jekyll without plugin](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/) which I tried but failed may be out of date for some reasons or miss some key details.
+
+In fact I prefer to the second method because I want to keep the markdown syntax. The first method I'm using now uses html and may cause liquid syntax error. At this time, using <% raw %> and <% endraw %> tags can fix it.
+
 **Update 2.**
 It works! That's what I want. Thanks to Github action and this post([Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}).
 
