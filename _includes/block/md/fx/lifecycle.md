@@ -18,7 +18,7 @@ During **execution**, Fx will,
 - wait for a signal to stop running
 - run all shutdown hooks appended to the application
 
-```mermaid
+<div class="mermaid">
 flowchart LR
     subgraph "Initialization (fx.New)"
         Provide --> Decorate --> Invoke
@@ -29,7 +29,7 @@ flowchart LR
     Invoke --> Start
     
     style Wait stroke-dasharray: 5 5
-```
+</div>
 
 ## Lifecycle hooks
 
