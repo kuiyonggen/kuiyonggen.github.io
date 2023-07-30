@@ -203,7 +203,6 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
-* [](){:target="_blank"}
 
 
 ## frontend
@@ -214,6 +213,16 @@ permalink: /link/
 
 * [Manually curated collection of resources for frontend web developers](https://github.com/dypsilon/frontend-dev-bookmarks){:target="_blank"}
 * [](){:target="_blank"}
+
+
+* [A light-weight, no-dependency, vanilla JavaScript engine to drive the user's focus across the page](https://github.com/kamranahmedse/driver.js){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+
 
 
 ### next.js
@@ -252,6 +261,17 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
+## python
+
+
+* [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
 ## rust
 
 
@@ -262,7 +282,7 @@ permalink: /link/
 
 * [Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.](https://github.com/spacedriveapp/spacedrive){:target="_blank"}
 
-* [](){:target="_blank"}
+* [egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native](https://github.com/emilk/egui){:target="_blank"}
 
 
 * [](){:target="_blank"}
@@ -282,6 +302,13 @@ permalink: /link/
 
 
 * [Next-generation ORM for Node.js & TypeScript: PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB](https://github.com/prisma/prisma){:target="_blank"}
+* [Your own API Hub to learn and master API interaction. Ideal for frontend, mobile dev and backend developers.](https://github.com/hiteshchoudhary/apihub){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 
 ## golang
@@ -342,6 +369,12 @@ permalink: /link/
 
 
 * [Protect and discover secrets using Gitleaks](https://github.com/gitleaks/gitleaks){:target="_blank"}
+* [Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible.](https://github.com/makeplane/plane){:target="_blank"}
+
+* [A privacy-first, open-source platform for knowledge management and collaboration](https://github.com/logseq/logseq){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 
 ### database
@@ -737,8 +770,8 @@ permalink: /link/
 
 * [A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs](https://github.com/a16z-infra/ai-getting-started){:target="_blank"}
 
-* [](){:target="_blank"}
-* [](){:target="_blank"}
+* [Enable everyone to develop, optimize and deploy AI models natively on everyone's devices.](https://github.com/mlc-ai/mlc-llm){:target="_blank"}
+* [Run large language models at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading](https://github.com/bigscience-workshop/petals){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -797,8 +830,13 @@ permalink: /link/
 
 * [Codementer](https://www.codementor.io/){:target="_blank"}
 
-
+* [Resources for independent developers to make money](https://github.com/mezod/awesome-indie){:target="_blank"}
+* [A list of remote freelance jobs.](https://github.com/kaizensoze/remote-freelance-jobs){:target="_blank"}
 * [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
 
 
 ## English

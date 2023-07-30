@@ -10,6 +10,28 @@ And another post [Embed Mermaid in Jekyll without plugin](https://jackgruber.git
 
 In fact I prefer to the second method because I want to keep the markdown syntax. The first method I'm using now uses html and may cause liquid syntax error. At this time, using <% raw %> and <% endraw %> tags can fix it.
 
+Use the following shell script to download the js script file specified by the mermaid-js release version which can be found on its [github release page](https://github.com/mermaid-js/mermaid/releases). The current latest release version is 10.3.0.
+
+```bash
+mkdir assets/block/script
+cd assets/block/script
+curl -O https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js
+```
+
+Then place the following content just after the <article> tag in _layout/post.html.
+
+```
+  <script src="/assets/block/script/mermaid.min.js"></script>
+```
+
+At this point, the mermaid.js was set up for Jekyll. Use 'mermaid: true' in the post meta data. The look is just like this:
+
+```
+---
+title: use uml in jekyll
+mermaid: true
+---
+```
 **Update 2.**
 It works! That's what I want. Thanks to Github action and this post([Deploying Jekyll sites to GitHub Pages using GitHub Actions](https://milanaryal.com.np/deploying-jekyll-sites-to-github-pages-using-github-actions/#:~:text=Deploying%20Jekyll%20sites%20to%20GitHub%20Pages%20using%20GitHub,Pages%20site.%20...%204%20Build%20and%20deploy%20){:target="blank"}).
 
