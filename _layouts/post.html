@@ -2,7 +2,9 @@
 layout: base
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <script src="/assets/block/script/mermaid.min.js"></script>
+    {%- if page.mermaid -%}
+    <script src="/assets/block/script/mermaid.min.js"></script>
+    {%- endif -%}
 <link href="/assets/css/syntax.css" rel="stylesheet" >
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
