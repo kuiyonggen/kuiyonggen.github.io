@@ -48,10 +48,31 @@ A dependency injection based application framework for Go.
 
 # demo
 
+## create the demo project
+
+```bash
+# cd your workspace directory
+mkdir fxdemo
+cd fxdemo
+go mod init fxdemo
+```
+
+## code
+```bash
+cd fxdemo
+vim main.go
+```
 ```go
 {% include {{ page.src_file }} %}
 ```
 
+## build
+
+```bash
+go mod tidy
+go build
+./fxdemo
+```
 
 # reference
 
