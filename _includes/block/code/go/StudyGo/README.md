@@ -1,4 +1,4 @@
-# Learn Go
+# Study Go
 
 It may be ten years ago when I first heard go. At that time, I used C++ to do some server services. When I started to learn it, it came to 2015. I was dealing with a small project, which used go for the  backend language. I preferred to learn go but failed. I refacted the project with C++. Later I used Python instead of C++ to develop web servers. Sometimes I used Java, but it's not the language I like.
 
