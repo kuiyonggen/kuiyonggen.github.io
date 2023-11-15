@@ -23,7 +23,9 @@ permalink: /link/
 
 
 * [LWN.net is a reader-supported news site dedicated to producing the best coverage from within the Linux and free software development communities.](https://lwn.net/){:target="_blank"}
+
 * [](){:target="_blank"}
+
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -156,10 +158,34 @@ permalink: /link/
 * [I know how to make and sell software online, and I can share my tips with you](http://stevehanov.ca/blog/){:target="_blank"}
 
 
+* [Kalzumeus Software](https://www.kalzumeus.com/){:target="_blank"}
+
+
+* [The Bootstrapped Founder](https://thebootstrappedfounder.com/){:target="_blank"}
+
+* [Tyler Tringas](https://tylertringas.com/){:target="_blank"}
+
+* [The foundation blog](https://thefoundation.com/blog/){:target="_blank"}
+
+* [Increase your revenue, reduce costs and cut down risk Automatically](https://www.paddle.com/){:target="_blank"}
+
+* [The industry's top wizards, doctors, and other experts offer their best advice, research, how-tos, and insights—all in the name of helping you level-up your SEO and online marketing skills.](https://moz.com/blog){:target="_blank"}
+
+* [indiehackers](https://www.indiehackers.com/){:target="_blank"}
+
 * [](){:target="_blank"}
+
 * [](){:target="_blank"}
+
 * [](){:target="_blank"}
+
 * [](){:target="_blank"}
+
+* [](){:target="_blank"}
+
+
+* [](){:target="_blank"}
+
 * [](){:target="_blank"}
 
 
@@ -216,6 +242,19 @@ permalink: /link/
 
 
 * [A light-weight, no-dependency, vanilla JavaScript engine to drive the user's focus across the page](https://github.com/kamranahmedse/driver.js){:target="_blank"}
+
+* [A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.](https://github.com/ionic-team/ionic-framework){:target="_blank"}
+
+* [Beautiful, fast and modern React UI library.](https://github.com/nextui-org/nextui){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+### html5
+
+
+* [Simple HTML5 Charts using the canvas tag](https://github.com/chartjs/Chart.js){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -223,6 +262,18 @@ permalink: /link/
 * [](){:target="_blank"}
 
 
+### javascript
+
+
+* [The Open Source DocuSign Alternative.](https://github.com/documenso/documenso){:target="_blank"}
+
+* [Scheduling infrastructure for absolutely everyone.](https://github.com/calcom/cal.com){:target="_blank"}
+
+* [The all-in-one web framework designed for speed.](https://github.com/withastro/astro){:target="_blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
 
 
 ### next.js
@@ -265,9 +316,9 @@ permalink: /link/
 
 
 * [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery){:target="_blank"}
-* [](){:target="_blank"}
-* [](){:target="_blank"}
-* [](){:target="_blank"}
+* [Open source home automation that puts local control and privacy first.](https://github.com/home-assistant/core){:target="_blank"}
+* [Bringing Old Photo Back to Life CVPR 2020 oral](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life){:target="_blank"}
+* [Investment Research for Everyone, Everywhere.](https://github.com/OpenBB-finance/OpenBBTerminal){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -285,9 +336,11 @@ permalink: /link/
 * [egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native](https://github.com/emilk/egui){:target="_blank"}
 
 
-* [](){:target="_blank"}
-* [](){:target="_blank"}
-* [](){:target="_blank"}
+* [Fullstack GUI library for desktop, web, mobile, and more.](https://github.com/DioxusLabs/dioxus){:target="_blank"}
+
+* [Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends](https://github.com/pola-rs/polars){:target="_blank"}
+
+* [Open-source solution to deploy, scale, and operate your multiplayer game](https://github.com/rivet-gg/rivet){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -322,6 +375,21 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
+### infrastructure
+
+
+* [CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.](https://github.com/IceWhaleTech/CasaOS){:target="_blank"}
+
+* [High-Performance server for NATS.io, the cloud and edge native messaging system.](https://github.com/nats-io/nats-server){:target="_blank"}
+
+* [Open source APM: OpenTelemetry traces, metrics, and logs](https://github.com/uptrace/uptrace){:target="_blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
+
+* [](){:target="_blank"}
+
 ### image
 
 
@@ -335,10 +403,15 @@ permalink: /link/
 
 
 * [A Commander for modern Go CLI interactions](https://github.com/spf13/cobra){:target="_blank"}
+
+* [Compile-time Dependency Injection for Go](https://github.com/google/wire){:target="_blank"}
+
+* [A dependency injection based application framework for Go.](https://github.com/uber-go/fx){:target="_blank"}
+
+* [Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http](https://github.com/valyala/fasthttp){:target="_blank"}
+
 * [](){:target="_blank"}
-* [](){:target="_blank"}
-* [](){:target="_blank"}
-* [](){:target="_blank"}
+
 * [](){:target="_blank"}
 
 ### server
@@ -346,6 +419,10 @@ permalink: /link/
 
 * [A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)](https://github.com/gotify/server){:target="_blank"}
 * [The front-end and back-end separation authority management system based on Gin + Vue + Element UI OR Arco Design is extremely simple to initialize the system. ](https://github.com/go-admin-team/go-admin){:target="_blank"}
+* [High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.](https://github.com/knadh/listmonk){:target="_blank"}
+* [Express inspired web framework written in Go](https://github.com/gofiber/fiber){:target="_blank"}
+* [The refactored Penguin Statistics v3 Backend. Built with Go, fiber, bun and go.uber.org/fx. Uses NATS as MQ and Redis as state synchronization.](https://github.com/penguin-statistics/backend-next){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -374,12 +451,19 @@ permalink: /link/
 * [A privacy-first, open-source platform for knowledge management and collaboration](https://github.com/logseq/logseq){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
-* [](){:target="_blank"}
-* [](){:target="_blank"}
+
+
+
 
 ### database
 
 * [JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.](https://github.com/paypal/junodb){:target="_blank"}
+* [RocksDB LevelDB inspired key-value database in Go](https://github.com/cockroachdb/pebble){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 
 
@@ -389,7 +473,7 @@ permalink: /link/
 * [atlas is an open-source schema migration tool](https://atlasgo.io/){:target="_blank"}
 
 * [gorm-The fantastic ORM library for Golang, aims to be developer friendly](https://github.com/go-gorm/gorm){:target="_blank"}
-* [](){:target="_blank"}
+* [SQL-first Golang ORM](https://github.com/uptrace/bun){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
@@ -489,9 +573,13 @@ permalink: /link/
 * [10x easier, rocket 140x lower storage cost, rocket high performance, rocket petabyte scale - Elasticsearch/Splunk/Datadog alternative for rocket (logs, metrics, traces)](https://github.com/openobserve/openobserve){:target="_blank"}
 
 * [ConsulManager](https://github.com/starsliao/ConsulManager){:target="_blank"}
+
+* [Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software. Supports any development language and extends the existing code.](https://github.com/kuafuai/DevOpsGPT){:target="_blank"}
+
 * [](){:target="_blank"}
+
 * [](){:target="_blank"}
-* [](){:target="_blank"}
+
 ## ubuntu
 
 * [install windows app by deepin-wine](https://deepin-wine.i-m.dev/){:target="_blank"}
@@ -550,6 +638,14 @@ permalink: /link/
 * [](){:target="_blank"}
 
 
+## dart
+
+
+* [A simple way to access state while robust and testable.](https://github.com/rrousselGit/riverpod){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
 ## chrome
 
 * [How to Create Your Own Google Chrome Extension](https://www.freecodecamp.org/news/building-chrome-extension/){:target="_blank"}
@@ -575,7 +671,7 @@ permalink: /link/
 
 * [A visual no-code/code-free web crawler](https://github.com/NaiboWang/EasySpider){:target="_blank"}
 
-* [](){:target="_blank"}
+* [Elegant Scraper and Crawler Framework for Golang](https://github.com/gocolly/colly){:target="_blank"}
 
 * [](){:target="_blank"}
 
@@ -652,8 +748,50 @@ permalink: /link/
 
 * [](){:target="_blank"}
 * [](){:target="_blank"}
+
+## microservice
+
+* [Microservices with Micronaut, KrakenD and Consul](https://piotrminkowski.com/2021/02/23/microservices-with-micronaut-krakend-and-consul/){:target="_blank"}
+
 * [](){:target="_blank"}
 * [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+## search
+
+
+* [Easy to use open source fast database for search, Good alternative to Elasticsearch now, Drop-in replacement for E in the ELK soon](https://github.com/manticoresoftware/manticoresearch){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+## mq
+
+* [A modern high-performance open source message queuing system](https://github.com/bloomberg/blazingmq){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
+
 
 ## database
 
@@ -669,7 +807,7 @@ permalink: /link/
 * [A weekly email roundup of Postgres news and articles](https://postgresweekly.com/){:target="_blank"}
 * [The installation of PostgreSQL using the source code distribution](https://www.postgresql.org/docs/current/installation.html){:target="_blank"}
 * [postgresql psql commands](https://www.geeksforgeeks.org/postgresql-psql-commands/){:target="_blank"}
-* [](){:target="_blank"}
+* [A Language Server for Postgres](https://github.com/supabase/postgres_lsp){:target="_blank"}
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
@@ -682,6 +820,11 @@ permalink: /link/
 ## markdown
 
 * [markdown-emojis - All the emojis](https://github.com/markdown-templates/markdown-emojis){:target="_blank"}
+* [A Markdown Editor](https://github.com/Tencent/cherry-markdown){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 * [](){:target="_blank"}
 
 
@@ -718,6 +861,15 @@ permalink: /link/
 
 * [](){:target="_blank"}
 * [](){:target="_blank"}
+
+### tool
+
+
+* [A command-line tool to turn web pages into readable PDF, EPUB, HTML, or Markdown docs.](https://github.com/danburzo/percollate){:target="_blank"}
+* [How to Remove the DRM on Any Ebook You Own](https://www.makeuseof.com/tag/remove-drm-every-ebook-own/){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
+
 
 ## knowledgebase
 
@@ -781,9 +933,9 @@ permalink: /link/
 
 * [Framework to easily create LLM powered bots over any dataset.](https://github.com/embedchain/embedchain){:target="_blank"}
 
-* [](){:target="_blank"}
+* [A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device.](https://github.com/getumbrel/llama-gpt){:target="_blank"}
 
-* [](){:target="_blank"}
+* [Your Second Brain supercharged by Generative AI Dump all your files and chat with your personal assistant on your files & more using GPT 3.5/4, Private, Anthropic, VertexAI, LLMs...](https://github.com/StanGirard/quivr){:target="_blank"}
 
 * [](){:target="_blank"}
 
@@ -801,6 +953,14 @@ permalink: /link/
 * [](){:target="_blank"}
 * [](){:target="_blank"}
 
+
+## nclc
+
+
+* [Low code web framework for real world applications, in Python and Javascript](https://github.com/frappe/frappe){:target="_blank"}
+* [A source code based low-code builder without private schema. Integrate low-code into your local development workflow seamlessly.](https://github.com/NetEase/tango){:target="_blank"}
+* [](){:target="_blank"}
+* [](){:target="_blank"}
 
 ## paper
 

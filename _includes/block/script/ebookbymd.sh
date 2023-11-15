@@ -10,7 +10,7 @@ if [ ! $mdFile ];then
     echo "Title separated by the minus separator(-), eg: Effective-Go.md"
     echo ""
     echo "Example:"
-    echo "./ebookbymd.sh ../../doc/md/Effectie-Go.md"
+    echo "./ebookbymd.sh ../../doc/md/Effective-Go.md"
 else
     mdFilename=$(basename $mdFile)
     filenameNoExt=${mdFilename%.md}
