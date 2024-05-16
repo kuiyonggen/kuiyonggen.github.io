@@ -2,6 +2,7 @@
 layout: post
 title: "Poems of Han Shan"
 categories: ["poem", "hanshan"]
+src_file: block/txt/poems.md
 ---
 
 <pre>
@@ -39,6 +40,7 @@ It becomes a good journey.
 
 
 
-All are my own translation from Chinese to English.
+{% include {{ page.src_file }} %}
 
 Do you like Han Shan's poetry?
+
