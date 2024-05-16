@@ -18,6 +18,10 @@ Just seat in front of peach blossoms while not drunk,
 
 Come back under peach blossoms to sleep while drunk.
 
+Half awake half drunk day after day,
+
+Flowers bloom and fall year after year.
+
 Only want old death between the blossoms and wine,
 
 Never take a bow before carriages and horses.
