@@ -18,7 +18,7 @@ I wanted to convert all my wmv files into mp4 files at one click. So I wrote a s
 
 ```shell
 # Enter the folder containing the source wmv files
-$ ls | xargs /<repo_path>/_include/script/convertmp4.sh 
+$ ls | xargs /<repo_path>/_includes/block/script/convertmp4.sh 
 # Let the conversion job be running and have a cup of coffee.
 # Have fun@!@
 ```

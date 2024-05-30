@@ -21,7 +21,7 @@
 title: Kuiyonggen
 repository: kuiyonggen/kuiyonggen.github.io
 author: Kuiyonggen
-#email: your-email@example.com
+email: contact@kuiyonggen.com
 description: >- # this means to ignore newlines until "baseurl:"
   Let kids grow up in love!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -69,8 +69,12 @@ plugins:
 
 header_pages:
   - book.md
+  - portrait.md
   - link.md
   - about.md
+
+# https://github.com/jekyll/minima
+# google_analytics: G-NNNNNNNNNN-N
 
 show_excerpts: true
 
