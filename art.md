@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Portrait
+title: Art
 permalink: /category/portrait
 ---
-<H3>Portrait</H3>

@@ -68,8 +68,8 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
+  - art.md
   - book.md
-  - portrait.md
   - link.md
   - about.md
 
