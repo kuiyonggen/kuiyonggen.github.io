@@ -73,6 +73,9 @@ header_pages:
   - link.md
   - portrait.md
 
+minima:
+    skin: classic
+
 # https://github.com/jekyll/minima
 # google_analytics: G-NNNNNNNNNN-N
 
