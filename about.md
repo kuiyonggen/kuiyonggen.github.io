@@ -9,3 +9,4 @@ permalink: /about/
 - :pig: I’m looking to exchange thoughts on life and work.
 - :man: I'm a father of two kids.
 
+

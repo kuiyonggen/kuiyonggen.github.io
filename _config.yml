@@ -68,10 +68,10 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
-  - art.md
+  - about.md
   - book.md
   - link.md
-  - about.md
+  - portrait.md
 
 # https://github.com/jekyll/minima
 # google_analytics: G-NNNNNNNNNN-N
@@ -162,5 +162,4 @@ defaults:
       type: category
     values:
       layout: "category"
-
 
