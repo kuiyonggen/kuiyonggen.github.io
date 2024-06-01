@@ -18,7 +18,7 @@ Just seat in front of peach blossoms while not drunk,
 
 Come back under peach blossoms to sleep while drunk.
 
-Half awake half drunk day after day,
+Half awake and half drunk day after day,
 
 Flowers bloom and fall year after year.
 
@@ -28,7 +28,7 @@ Never take a bow before carriages and horses.
 
 Car dust and horse feet are nobles's fun,
 
-Wine cups and flow branches are the poor's fate.
+Wine cups and flower branches are the poor's fate.
 
 If compare the rich to the poor,
 
@@ -41,6 +41,10 @@ He gets driving and I get free.
 People laugh at me for too crazy,
 
 I laugh at others who can't see through it.
+
+Can't you see the Five Emperors' graves,
+
+Farmed as lands without blossoms and wine.
 
 - Tang Yin
  
