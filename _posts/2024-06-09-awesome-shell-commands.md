@@ -19,7 +19,7 @@ If you want to move all the files, you can use "-exec" and "-o". Here is an exam
 
 ```shell
 
-find /data/ -type f \( -name "*.pdf" -o -name "*.epub" -o  -name "*.mobi" -o -name ".azw3" -o -name "*.txt" \) -exec mv {} books/ \;
+find /data/ -type f \( -name "*.pdf" -o -name "*.epub" -o  -name "*.mobi" -o -name "*.azw3" -o -name "*.txt" \) -exec mv {} books/ \;
 
 ```
 
