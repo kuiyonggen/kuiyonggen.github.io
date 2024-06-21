@@ -1,0 +1,22 @@
+{% comment %}
+  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
+
+  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
+  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
+{% endcomment %}
+{% assign page_url = page.url | absolute_url  %}
+{% assign page_url_splits = page_url | split: "/" %}
+{% if page_url_splits[3] == 'cn' %}
+{% assign isCN = true %}
+{% else %}
+{% assign isCN = false %}
+{% endif %}
+{% if isCN %}
+{% assign host_url = site.data.navigation.url.en %}
+{% assign host_img = site.data.navigation.url_img.en %}
+{% assign host_img_alt = site.data.navigation.url_img_alt.en %}
+{% else %}
+{% assign host_url = site.data.navigation.url.zh %}
+{% assign host_img = site.data.navigation.url_img.zh %}
+{% assign host_img_alt = site.data.navigation.url_img_alt.zh %}
+{% endif %}

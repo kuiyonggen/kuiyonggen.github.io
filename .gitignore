@@ -1,0 +1,7 @@
+.bundle/
+.tmp/
+tmp/
+_site/
+assets/block/
+.DS_Store
+*.lock

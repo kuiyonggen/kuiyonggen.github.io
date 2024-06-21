@@ -1,0 +1,9 @@
+url:
+  zh       : /cn/
+  en       : /
+url_img:
+  en       : /assets/flag-US.png
+  zh       : /assets/flag-CN.png
+url_alt:
+  en       : "Swith to English Version" 
+  zh       : "切换到中文版"

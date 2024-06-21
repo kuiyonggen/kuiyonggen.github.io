@@ -1,0 +1,43 @@
+---
+layout: default
+---
+{% include custom-head.html %}
+<div class="blog list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{%- if isCN -%}
+    <h1><small>"#{{ page.label }}"</small>标签下的文章列表</h1>
+    {%- for post in site.cn -%}
+        {%- for category in post.categories -%}
+            {%- if page.tag == category -%}
+                <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
+{%- else -%}
+    <h1>Filed Under <small>#{{ page.tag }}</small></h1>
+    {% for post in site.categories[page.tag] %}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+    {% endfor %}
+{%- endif -%}
+</div>
+

@@ -1,0 +1,72 @@
+---
+layout: base
+---
+{% include custom-head.html %}
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    {%- if page.mermaid -%}
+    <script src="/assets/block/script/mermaid.min.js"></script>
+    {%- endif -%}
+<link href="/assets/css/syntax.css" rel="stylesheet" >
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.modified_date -%}
+        ~ 
+        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
+      {%- endif -%}
+      {%- if page.author -%}
+        • {% for author in page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {%- endif -%}</p>
+<div class="tags">
+    {% assign sortedCategories = page.categories | sort %}
+    {% for category in sortedCategories %}
+        <span class="tag">
+            {% if isCN %}
+            <a href="/cn/category/{{ category }}">#{{ category }}</a>
+            {% else %}
+            <a href="/category/{{ category }}">#{{ category }}</a>
+            {% endif %}
+        </span>
+    {% endfor %}
+</div>
+
+
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {% include toc.html html=content %}
+    {{ content }}
+  </div>
+
+<div class="related">
+    <h3>Related Posts</h3>
+    {% assign firstCategory = page.categories | first %}
+    {% assign relatedCount = 0 %}
+    {% for related in site.categories[firstCategory] %}
+        {% unless page.permalink == related.permalink %}
+            {% assign relatedCount = relatedCount | plus: 1 %}
+            <a href="{{related.permalink}}">{{ related.title }}</a>
+        {% endunless %}
+
+        {% if relatedCount == 3 %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+
+

@@ -1,0 +1,120 @@
+# Result Objects
+
+A result object is an object with the sole purpose of carrying results
+for a specific function or method.
+
+As with [parameter objects](#parameter-objects),
+the object is defined exclusively for a single function,
+and not shared with other functions.
+
+In Fx, result objects contain exported fields exclusively,
+and are always tagged with `fx.Out`.
+
+**Related**
+
+- [Parameter objects](#parameter-objects) are the parameter analog of result
+  objects.
+
+## Using result objects
+
+To use result objects in Fx, take the following steps:
+
+1. Define a new struct type named after your constructor
+   with a `Result` suffix.
+   If the constructor is named `NewClient`, name the struct `ClientResult`.
+   If the constructor is named `New`, name the struct `Result`.
+   This naming isn't strictly necessary, but it's a good convention to follow.
+
+   ```go
+   type ClientResult struct {
+   }
+   ```
+
+2. Embed `fx.Out` into this struct.
+
+   ```go
+   type ClientResult struct {
+     fx.Out
+   ```
+
+3. Use this new type as the return value of your constructor *by value*.
+
+   ```go
+   func NewClient() (ClientResult, error) {
+   ```
+
+4. Add values produced by your constructor as **exported** fields on this struct.
+
+   ```go
+   type ClientResult struct {
+     fx.Out
+
+     Client *Client
+   }
+   ```
+
+5. Set these fields and return an instance of this struct from your
+   constructor.
+
+   ```go
+   func NewClient() (ClientResult, error) {
+     client := &Client{
+       // ...
+     }
+     return ClientResult{Client: client}, nil
+   }
+   ```
+
+<!--
+TODO: cover various tags supported on a result object.
+-->
+
+Once you have a result object on a function,
+you can use it to access other advanced features of Fx:
+
+- [Feeding value groups with result objects](#with-result-objects)
+
+## Adding new results
+
+You can add new values to an existing result object
+in a completely backwards compatible manner.
+
+1. Take an existing result object.
+
+   ```go
+   type Result struct {
+     fx.Out
+
+     Client *Client
+   }
+
+   func New() (Result, error) {
+     client := &Client{
+       // ...
+     }
+     return Result{
+       Client: client,
+     }, nil
+   ```
+
+2. Add a new field to it for your new result.
+
+   ```go
+   type Result struct {
+     fx.Out
+
+     Client *Client
+     Inspector *Inspector
+   }
+   ```
+
+3. In your constructor, set this field.
+
+   ```go
+     return Result{
+       Client: client,
+       Inspector: &Inspector{
+         // ...
+       },
+     }, nil
+   ```
