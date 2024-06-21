@@ -72,9 +72,13 @@ plugins:
 
 header_pages:
   - about.md
+  - parenting.md
   - book.md
   - link.md
   - portrait.md
+  - tech.md
+  - life.md
+  - study.md
 
 minima:
     skin: classic

@@ -21,13 +21,19 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-      {%- if page.author -%}
-        • {% for author in page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-            {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
-      {%- endif -%}</p>
+{%- if isCN -%}
+      "作者：
+{%- else -%}
+{{ "Author: " }}
+{%- endif -%}
+{{ page.author }}
+{%- if isCN -%}
+      编辑：
+{%- else -%}
+{{ ", Editor: " }}
+{%- endif -%}
+{{ page.editor }}
+</pr>
 <div class="tags">
     {% assign sortedCategories = page.categories | sort %}
     {% for category in sortedCategories %}

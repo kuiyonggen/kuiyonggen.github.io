@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "惊艳的Shell命令"
+author: 涌根
 categories: ["shell", "tech"]
 ---
 这是我在平时工作中收集的令人惊叹的Shell命令，因为对我工作帮助很大。我希望随时可以查阅这些命令，如果正好也帮助到你，我将非常高兴。
