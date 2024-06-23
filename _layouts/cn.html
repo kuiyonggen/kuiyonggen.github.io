@@ -26,7 +26,7 @@ layout: base
         </h3>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <span class="post-meta">作者：{{ post.author }}</span>
-        <span class="post-meta">编辑：{{ post.editor }}</span>
+        <span class="post-meta">, 编辑：{{ post.editor }}</span>
 <div class="tags">
     {% for category in post.categories %}
         <span class="tag">

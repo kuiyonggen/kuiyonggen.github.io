@@ -22,13 +22,13 @@ layout: base
         </time>
       {%- endif -%}
 {%- if isCN -%}
-      "作者：
+      作者：
 {%- else -%}
 {{ "Author: " }}
 {%- endif -%}
 {{ page.author }}
 {%- if isCN -%}
-      编辑：
+      , 编辑：
 {%- else -%}
 {{ ", Editor: " }}
 {%- endif -%}
@@ -39,7 +39,7 @@ layout: base
     {% for category in sortedCategories %}
         <span class="tag">
             {% if isCN %}
-            <a href="/cn/category/{{ category }}">#{{ category }}</a>
+            <a href="/cn/category/{{ category }}">#{{ site.data.categories[category] }}</a>
             {% else %}
             <a href="/category/{{ category }}">#{{ category }}</a>
             {% endif %}
