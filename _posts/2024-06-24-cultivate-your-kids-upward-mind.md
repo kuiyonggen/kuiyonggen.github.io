@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cultivate Kids' Upward Mind
+title: Cultivate Your Kids' Upward Mind
 author: Yonggen
 editor: Kuikui
 categories: [ "parenting" ]
@@ -19,7 +19,7 @@ I think that a teacher, in the face of a student with poor grades, can stand the
 
 Mr. Li immediately replied:
 
-"Last week, I also talked to my head teacher, Mrs. Qin, about her situation. We all think that she has learning ability and good learning habits and attitude. As long as she maintains this good habit and enthusiasm, we all believe that she can get better and better in learning. Let's work together."
+"Last week, I also talked to my head teacher, Mrs. Qin, about her situation. We all think that she has learning ability and good learning habits and attitude. As long as she maintains this good habit and enthusiasm, we all believe that she can get better and better in learning. Let's work together.:shake_hands:"
 
 Yes, as Mr. Li said, as long as you maintain good habits and enthusiasm, kids will get better and better in learning. I suddenly understood that this is to have an upward mind, isn't it? Any person who achieves something depends on self-study, and the source of self-study is his upward mind. In other words, if a person has an upward mind, he will study by himself, so that he will find his interests and strengths, strengthen his ambitions, and be able to continuously absorb energy from self-study, converge in himself, continuously improve, integrate, self-contained, self-use, use freely, and explore the unknown. In this way, he can go from the ordinary road to success. The so-called success is in the process that one found and realized the value and mission in his or her life.
 
