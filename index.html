@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
 <!--
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 -->
+  <script src="./assets/js/post.js"></script>
   <title>葵涌根 - Kuiyonggen</title>
 
   <!--
@@ -61,73 +61,50 @@
           <div class="slider-item">
 
             <img src="./assets/images/qrcode_cn.gif" alt="women's latest fashion sale" class="banner-img">
-<!--
-            <div class="banner-content">
-
-              <p class="banner-subtitle">Trending item</p>
-
-              <h2 class="banner-title">Women's latest fashion sale</h2>
-
-              <p class="banner-text">
-                starting at &dollar; <b>20</b>.00
-              </p>
-
-              <a href="#" class="banner-btn">Shop now</a>
-
-            </div>
--->
-          </div>
-<!--
-          <div class="slider-item">
-
-            <img src="./assets/images/banner-2.jpg" alt="modern sunglasses" class="banner-img">
-
-            <div class="banner-content">
-
-              <p class="banner-subtitle">Trending accessories</p>
-
-              <h2 class="banner-title">Modern sunglasses</h2>
-
-              <p class="banner-text">
-                starting at &dollar; <b>15</b>.00
-              </p>
-
-              <a href="#" class="banner-btn">Shop now</a>
-
-            </div>
 
           </div>
-
-          <div class="slider-item">
-
-            <img src="./assets/images/banner-3.jpg" alt="new fashion summer sale" class="banner-img">
-
-            <div class="banner-content">
-
-              <p class="banner-subtitle">Sale Offer</p>
-
-              <h2 class="banner-title">New fashion summer sale</h2>
-
-              <p class="banner-text">
-                starting at &dollar; <b>29</b>.99
-              </p>
-
-              <a href="#" class="banner-btn">Shop now</a>
-
-            </div>
-
-          </div>
--->
         </div>
-
       </div>
-
     </div>
+
+<style>
+    .image-gallery {display: flex; flex-wrap: wrap; overflow: auto; margin-left: -1%!important;}
+    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+    .image-gallery li a {text-align: center; text-decoration: none!important; }
+    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery li a img {width: 100%; display: block;}
+</style>
+
+  <ui class="image-gallery">
+<script>
+    blogs.forEach((b) => {
+          document.write('<li>') 
+          document.write('<a target="_blank" href="' + b.blogUrl + '">')
+
+              document.write('<img src="' + b.picUrl + '" alt="' + b.title + '" width="300" class="blog-banner">')
+            document.write('</a>')
+
+            document.write('<div class="blog-content">')
+
+              document.write('<a href="#" class="blog-category">' + b.category + '</a>')
+
+              document.write('<a target="_blank" href="' + b.blogUrl + '">')
+                document.write('<h3 class="blog-title">' + b.title + '</h3>')
+              document.write('</a>')
+
+              document.write('<p class="blog-meta">')
+              document.write('作者:  <cite>' + b.author + '</cite> / <time datetime="' + b.createTime + '">' + b.createTime + '</time>')
+              document.write('</p>')
+
+              document.write(' </div>')
+              document.write(' </li>')
+    })
+</script>
+</ui>
 
   <!--
     - FOOTER
   -->
-
   <footer>
 
      <div class="footer-bottom">
@@ -143,10 +120,6 @@
     </div>
 
   </footer>
-
-
-
-
 
 
   </body>
