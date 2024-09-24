@@ -30,7 +30,7 @@
   .desktop-menu-category-list .menu-category > .menu-title {
     position: relative;
     color: var(--onyx);
-    font-size: var(--fs-7);
+    font-size: var(--fs-4);
     font-weight: var(--weight-600);
     text-transform: uppercase;
     padding: 15px 0;
