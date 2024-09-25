@@ -12,6 +12,14 @@ const blogs = [
   {
     category: "育儿随想",
     author: "涌根",
+    title: "分数并不能衡量一个孩子的真实实力",
+    createTime: "2024年09月25日 23:55",
+    picUrl: "https://mmbiz.qpic.cn/sz_mmbiz_jpg/wRR0wmNl349XfDLicbXMSjujReBaZoxtakLCO5Ss3WmdFg0ZdLAglXkgcibeyUEcFKk1QoHaU8KmAbvncSXoX5mw/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
+    blogUrl: "https://mp.weixin.qq.com/s?__biz=Mzk0NTUwNDk1Mg==&mid=2247484117&idx=1&sn=8286a6837fe588243fbd5911cce41b65&chksm=c3151502f4629c1415d7b0e7ce5c3645d73dd278ae01ee02e891498613974e057759c3590472&token=1396363012&lang=en_US#rd"
+  },
+  {
+    category: "育儿随想",
+    author: "涌根",
     title: "孩子的成长，更需要的是父母的爱",
     createTime: "2024年09月24日 23:45",
     picUrl: "https://mmbiz.qpic.cn/sz_mmbiz_jpg/wRR0wmNl34icCNhHCgibiaTl6UpLCicLoKFp17hZicO1jd2KP2fYOOgKUC9pmonibGtAicQjc7bSScMoZ3WdzzsqyReYw/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
