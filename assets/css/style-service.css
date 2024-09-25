@@ -8,8 +8,6 @@
 
 
 
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -244,7 +242,7 @@ ion-icon {
 
 .product-banner {
   min-width: 100%;
-  max-height: 300px;
+//  max-height: 300px;
 }
 
 .slide-btn {
