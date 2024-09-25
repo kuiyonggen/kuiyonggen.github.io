@@ -7,7 +7,6 @@
   <meta name="description" content="葵涌根(ID: kuiyonggen) - 让孩子在爱中成长, 以育儿为事业: 学习，探索，实践和分享知识、技巧、经验和思想。">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="/assets/js/post.js"></script>
   <title>葵涌根(kuiyonggen)|让孩子在爱中成长</title>
 
   <!--
@@ -19,7 +18,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="/assets/css/style-prefix.css"> 
-
+  <link rel="stylesheet" href="/assets/css/style-service.css">
 </head>
 
 <body>
@@ -91,55 +90,69 @@
 
     </div>
 
+<!-- main -->
+<main>
+    <article>
 
-  <!--
-    - MAIN
-  -->
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product" aria-label="product">
+        <div class="container">
+
+          <div class="product-slides">
+
+            <div class="slider-banner" data-slider>
+              <figure class="product-banner">
+                <img src="https://mmbiz.qpic.cn/sz_mmbiz_png/wRR0wmNl349XfDLicbXMSjujReBaZoxtahiaZFEeK63DmjZdYdgCHDq2Q9jOvQZ4GE0xemVZ38tlF4Ip4ZjQrKYg/640?wx_fmt=png&amp;from=appmsg" width="600" height="600" loading="lazy" alt="公众号菜单服务。"
+                  class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="https://mmbiz.qpic.cn/sz_mmbiz_png/wRR0wmNl349XfDLicbXMSjujReBaZoxtaqGISgHsGqIKCALFbTOahww2QbrWomSctqJIdic73Igxju9V8C6QvLSg/640?wx_fmt=png&from=appmsg" width="600" height="600" loading="lazy" alt="在公众号后台留言邮箱地址。"
+                  class="img-cover">
+              </figure>
+              
+            </div>
+
+            <button class="slide-btn prev" aria-label="Previous image" data-prev>
+              <ion-icon name="chevron-back" aria-hidden="true"></ion-icon>
+            </button>
+
+            <button class="slide-btn next" aria-label="Next image" data-next>
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="product-content">
+
+            <p class="product-subtitle">葵涌根公众号提供的服务</p>
+
+            <h1 class="h1 product-title">1.公众号菜单服务</h1>
+            <p class="product-text">
+            包括"专栏"和"公司"两个主菜单。
+            
+            </p>
+            <h1 class="h1 product-title">2.公众号后台留言服务</h1>
+
+            <p class="product-text">
+感谢您关注和支持葵涌根，回复您的邮箱地址订阅获取更多育儿学习资料。            
+            </p>
 
 
-    <!--
-      - BANNER
-    -->
+          </div>
 
-    <div class="banner">
-            <img src="./assets/images/qrcode_cn.gif" alt="women's latest fashion sale" class="banner-img">
+          </div>
 
-    </div>
+        </div>
+      </section>
 
-<style>
-    .image-gallery {display: flex; flex-wrap: wrap; overflow: auto; margin-left: -1%!important;}
-    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
-    .image-gallery li a {text-align: center; text-decoration: none!important; }
-    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
-    .image-gallery li a img {width: 100%; display: block;}
-</style>
+    </article>
+  </main>
 
-  <ui class="image-gallery">
-<script>
-    blogs.forEach((b) => {
-          document.write('<li>') 
-          document.write('<a target="_blank" href="' + b.blogUrl + '">')
 
-              document.write('<img src="' + b.picUrl + '" alt="' + b.title + '" width="300" class="blog-banner">')
-            document.write('</a>')
-
-            document.write('<div class="blog-content">')
-
-              document.write('<a href="#" class="blog-category">' + b.category + '</a>')
-
-              document.write('<a target="_blank" href="' + b.blogUrl + '">')
-                document.write('<h3 class="blog-title">' + b.title + '</h3>')
-              document.write('</a>')
-
-              document.write('<p class="blog-meta">')
-              document.write('作者:  <cite>' + b.author + '</cite> / <time datetime="' + b.createTime + '">' + b.createTime + '</time>')
-              document.write('</p>')
-
-              document.write(' </div>')
-              document.write(' </li>')
-    })
-</script>
-</ui>
 
   <!--
     - FOOTER
@@ -160,6 +173,16 @@
 
   </footer>
 
+<!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script-service.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   </body>
 
