@@ -6,6 +6,39 @@
  * copyright 2022 @codewithsadee 
  */
 
+.qr_code_pc_inner {
+    position: relative;
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qr_code_pc {
+    position: absolute;
+    right: -140px;
+    top: 0;
+    width: 140px;
+    padding: 16px;
+    border: 1px solid #D9DADC;
+    background-color: #fff;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    box-sizing: border-box;
+}
+
+.qr_code_pc_img {
+    width: 102px;
+    height: 102px;
+}
+
+.qr_code_pc_text {
+    font-size: 13px;
+}
+
+
+
 .desktop-navigation-menu { display: block; }
 
   .desktop-menu-category-list {
