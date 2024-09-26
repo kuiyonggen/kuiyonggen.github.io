@@ -12,6 +12,14 @@ const blogs = [
   {
     category: "育儿随想",
     author: "涌根",
+    title: "你的孩子会努力成为你那样的人",
+    createTime: "2024年09月26日 23:57",
+    picUrl: "https://mmbiz.qpic.cn/sz_mmbiz_png/wRR0wmNl34ib9vC0PHKr8rksMAkdoylyeEic9VNXcoUYfgbtd1UiaN8e0Eiclw9y2AwXeVr7SdkTTkpVoKvyvSw9hw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
+    blogUrl: "https://mp.weixin.qq.com/s?__biz=Mzk0NTUwNDk1Mg==&mid=2247484129&idx=1&sn=f715af77ccc22425eee94cca27320483&chksm=c3151536f4629c20aa17db4945382083b63c405d80edbf454c41707cac6563c7317e1c1946a1&token=1396363012&lang=en_US#rd"
+  },
+  {
+    category: "育儿随想",
+    author: "涌根",
     title: "分数并不能衡量一个孩子的真实实力",
     createTime: "2024年09月25日 23:55",
     picUrl: "https://mmbiz.qpic.cn/sz_mmbiz_jpg/wRR0wmNl349XfDLicbXMSjujReBaZoxtakLCO5Ss3WmdFg0ZdLAglXkgcibeyUEcFKk1QoHaU8KmAbvncSXoX5mw/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
