@@ -8,7 +8,23 @@ const blogs = [
     picUrl: "",
     blogUrl: ""
   },
+  {
+    category: "育儿随想",
+    author: "涌根",
+    title: "分数不能衡量一个孩子的真实实力",
+    createTime: "2024年09月25日 23:55",
+    picUrl: "https://mmbiz.qpic.cn/sz_mmbiz_jpg/wRR0wmNl349XfDLicbXMSjujReBaZoxtakLCO5Ss3WmdFg0ZdLAglXkgcibeyUEcFKk1QoHaU8KmAbvncSXoX5mw/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
+    blogUrl: "/post/post-2024-09-27.html"
+  },
 */
+  {
+    category: "育儿随想",
+    author: "涌根",
+    title: "不知什么时候，我成了这样的人",
+    createTime: "2024年09月27日 23:46",
+    picUrl: "https://mmbiz.qpic.cn/sz_mmbiz_jpg/wRR0wmNl349GSWIDPVEvZl7JiaD6oBwicW4EkkShPZKbpuop696LnGoo5XSwZ5lpsQ4hchLUwg5cPT2qVJJSQoIQ/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
+    blogUrl: "https://mp.weixin.qq.com/s?__biz=Mzk0NTUwNDk1Mg==&mid=2247484137&idx=1&sn=0fd83b32f59b93f882dc16bdab4ba4aa&chksm=c315153ef4629c2829acb4fbae891006dca1356f1484dffdf2932e6e069ddf4a4cbee4775daf&token=1396363012&lang=en_US#rd"
+  },
   {
     category: "育儿随想",
     author: "涌根",
