@@ -11,6 +11,94 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+
+.weui-flex {
+  display: flex;
+}
+
+.album_read_nav_item:first-child:last-child {
+    padding-top: 12px;
+    padding-bottom: 32px;
+}
+.album_read_nav_item.album_read_nav_prev {
+    text-align: left;
+}
+.album_read_card .weui-flex__item {
+    min-width: 0;
+}
+.weui-flex__item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+.weui-flex__item {
+    min-width: 0;
+}
+.weui-flex__item {
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+.album_read_nav_item {
+    position: relative;
+    text-align: center;
+    padding: 0 20px 20px;
+}
+.weui-flex__item {
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+.album_read_nav_item:first-child:last-child .album_read_nav_inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.album_read_nav_item:first-child:last-child .album_read_nav_btn {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.album_read_nav_btn {
+    display: block;
+    color: rgba(0, 0, 0, .9);
+    font-weight: 500;
+}
+
+.album_read_nav_item:first-child:last-child .album_read_nav_title {
+    margin-top: 0;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 0;
+}
+
+.album_read_nav_title {
+    display: block;
+    margin-top: 6px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.album_read_nav_item:first-child:last-child .album_read_nav_title_inner {
+    display: block;
+    white-space: nowrap;
+}
+
+.album_read_nav_title_inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
 .rich_media_wrp {
     position: relative;
 }
@@ -109,7 +197,17 @@
     text-align: justify;
 }
 
+.rich_media_paragraph {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
 
+.article_footer {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: hsl(152deg 45.38% 42.19%);
+}
 
 
 .rich_media_title {

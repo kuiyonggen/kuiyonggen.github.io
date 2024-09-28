@@ -20,6 +20,14 @@ const blogs = [
   {
     category: "育儿随想",
     author: "涌根",
+    title: "我们全家自驾游草原的收获",
+    createTime: "2024年09月28日 23:57",
+    picUrl: "https://mmbiz.qpic.cn/sz_mmbiz_jpg/wRR0wmNl349mrLOpolMBXaYibHScJ5dShAm4PQ0PaA9XrFAHxdAzrawLlnatHvz40pAIekcXAGJWZH8044d5Dvw/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
+    blogUrl: "https://mp.weixin.qq.com/s?__biz=Mzk0NTUwNDk1Mg==&mid=2247484156&idx=1&sn=3e5ecd89c9ffd13a095935b71908ce4b&chksm=c315152bf4629c3da0e9bc55b7be737c3ac3780c36ddde02e0f9b25af2aec7902a6aa16fa8b9&token=1396363012&lang=en_US#rd"
+  },
+  {
+    category: "育儿随想",
+    author: "涌根",
     title: "不知什么时候，我成了这样的人",
     createTime: "2024年09月27日 23:46",
     picUrl: "https://mmbiz.qpic.cn/sz_mmbiz_jpg/wRR0wmNl349GSWIDPVEvZl7JiaD6oBwicW4EkkShPZKbpuop696LnGoo5XSwZ5lpsQ4hchLUwg5cPT2qVJJSQoIQ/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
@@ -419,3 +427,5 @@ const blogs = [
   }
 ]
 
+
+ARTICLE_FOOTER = "<p class='article_footer'>如您有什么疑问或想法，欢迎在公众号评论区留言，或发email给我们。</p>"
