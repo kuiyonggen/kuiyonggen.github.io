@@ -750,6 +750,8 @@ table td {
   display: block;
   width: auto;
   overflow: hidden;
+  background-color: #f0f0f0;
+  margin-top: 50px;
 }
 
 .PageNavigation a {
