@@ -12,3 +12,5 @@ If parenting is a program, it may also be something to design, program, test and
 We have "The Art of Design", "The Art of Programming", "The Art of Test" and so on. And now we need a brand new "The Art of Parenting".
 
 That's why I created this repo and think of our kids, as a programmer and a father of two kids.
+
+If you use Wechat, you can follow the official account(ID: kuiyonggen). 
