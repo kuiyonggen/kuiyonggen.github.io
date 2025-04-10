@@ -1,0 +1,7 @@
+@startmindmap
+* fx feature
+    * reduce boilerplate
+    * eliminate global state
+    * add new components
+    * build shareable modules
+@endmindmap
